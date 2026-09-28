@@ -1,0 +1,134 @@
+{
+  "schematic": "Passthrough_HarnessBox.kicad_sch",
+  "last_sync": "2026-08-06T18:59:06.888344+00:00",
+  "parts": {
+    "PESD1CAN": {
+      "manufacturer": "",
+      "description": "CAN bus ESD protetion diode",
+      "value": "PESD1CAN",
+      "references": [
+        "D1",
+        "D3",
+        "D8",
+        "D2"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:58:50.832977+00:00"
+    },
+    "STPS2H100ZFY": {
+      "manufacturer": "",
+      "description": "ST automotive rectifier, 100V, 2A",
+      "value": "STPS2H100ZFY",
+      "references": [
+        "D6",
+        "D5"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:58:52.034009+00:00"
+    },
+    "16V": {
+      "manufacturer": "",
+      "description": "Littelfuse uni-directional TVS diode, 16VDC",
+      "value": "16V",
+      "references": [
+        "D7",
+        "D4"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for '16V'",
+      "last_attempt": "2026-08-06T18:58:53.578236+00:00"
+    },
+    "1N4148W": {
+      "manufacturer": "",
+      "description": "75V 0.15A Fast Switching Diode, SOD-123",
+      "value": "1N4148W",
+      "references": [
+        "D9"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:58:54.806334+00:00"
+    },
+    "JAE DX07S024XJ1R1100": {
+      "manufacturer": "",
+      "description": "USB-C Connector 24 conductor, right angle, generic pins",
+      "value": "JAE DX07S024XJ1R1100",
+      "references": [
+        "J1"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:58:59.330237+00:00"
+    },
+    "Molex 2125280400": {
+      "manufacturer": "",
+      "description": "Molex connector - 4 conductor, right angle",
+      "value": "Molex 2125280400",
+      "references": [
+        "J2"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Molex 2125280400'",
+      "last_attempt": "2026-08-06T18:59:00.404265+00:00"
+    },
+    "JAE MX34032NF4": {
+      "manufacturer": "",
+      "description": "automotive connector, 32 conductor, right angle",
+      "value": "JAE MX34032NF4",
+      "references": [
+        "J3",
+        "J4"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'JAE MX34032NF4'",
+      "last_attempt": "2026-08-06T18:59:01.558501+00:00"
+    },
+    "Conn_01x03_Pin": {
+      "manufacturer": "",
+      "description": "Generic connector, single row, 01x03, script generated",
+      "value": "Conn_01x03_Pin",
+      "references": [
+        "J6"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Conn_01x03_Pin'",
+      "last_attempt": "2026-08-06T18:59:02.559780+00:00"
+    },
+    "TQ2-12V": {
+      "manufacturer": "",
+      "description": "",
+      "value": "TQ2-12V",
+      "references": [
+        "K1"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:59:03.660792+00:00"
+    },
+    "DMN3200U-7": {
+      "manufacturer": "",
+      "description": "Diodes Inc MOSFET 650mW 30Vdss",
+      "value": "DMN3200U-7",
+      "references": [
+        "Q1"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:59:04.707924+00:00"
+    },
+    "Vishay DG419LEDY-T1-GE4": {
+      "manufacturer": "",
+      "description": "Vishay analog switch",
+      "value": "Vishay DG419LEDY-T1-GE4",
+      "references": [
+        "U1",
+        "U2"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-08-06T18:59:05.851778+00:00"
+    }
+  }
+}
