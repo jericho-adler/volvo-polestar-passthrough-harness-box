@@ -26,7 +26,6 @@ PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysi
 ### 3D models
 
 - `Passthrough_HarnessBox.step` — STEP export of the assembled board.
-- `case/` — enclosure design (`Case_Top.step`, `Case_Bottom.step` and their parametric `.step.py` generator sources) plus render snapshots in `case/snapshots/`.
 
 ## Status
 

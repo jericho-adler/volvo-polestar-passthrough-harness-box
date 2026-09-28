@@ -1,9 +1,6 @@
 # KiCad automatic local-history snapshots (editor backups, not project source)
 .history/
 
-# CAD generator build cache (locks, progress files, cached GLB/scene renders)
-3D models/case/__cadgen__/
-
 # Python bytecode cache
 __pycache__/
 *.pyc
