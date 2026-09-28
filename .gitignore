@@ -2,7 +2,7 @@
 .history/
 
 # CAD generator build cache (locks, progress files, cached GLB/scene renders)
-case/__cadgen__/
+3D models/case/__cadgen__/
 
 # Python bytecode cache
 __pycache__/
