@@ -2,6 +2,8 @@
 
 A small automotive ADAS harness pass-through box designed in KiCad. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
 
+![Assembled board render, showing the VCU and CAR Harness connectors](3D%20models/Passthrough_HarnessBox_Final.png)
+
 - **Board:** 73.0 × 43.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 25 components, 73 nets
 - **Power inputs:** VBAT and VOBD, each TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail
 - **Fail-safe passthrough:** a DPDT relay (Panasonic TQ2-12V) wired so the normally-closed contacts connect CAMERA↔VCU when the box is unpowered, and open when VIN is applied
@@ -13,7 +15,7 @@ A small automotive ADAS harness pass-through box designed in KiCad. It sits inli
 
 ```
 PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysis/datasheet data
-3D models/     STEP export of the assembled board, plus the enclosure (case) design and renders
+3D models/     STEP export of the assembled board, plus a rendered preview image
 ```
 
 ### PCB Files
@@ -26,6 +28,7 @@ PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysi
 ### 3D models
 
 - `Passthrough_HarnessBox.step` — STEP export of the assembled board.
+- `Passthrough_HarnessBox_Final.png` — rendered preview of the assembled board (shown above).
 
 ## Status
 
