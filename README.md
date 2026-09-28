@@ -1,6 +1,6 @@
 # Volvo/Polestar Passthrough Harness Box
 
-A small automotive ADAS harness pass-through box designed in KiCad. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
+A small automotive ADAS harness pass-through box designed in KiCad, built for **Volvo/Polestar** vehicles. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
 
 ![Assembled board render, showing the VCU and CAR Harness connectors](3D%20models/Passthrough_HarnessBox_Final.png)
 
@@ -17,4 +17,4 @@ Licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](
 
 ## Disclaimer
 
-This is a community hardware design shared as-is, with no warranty. Review the design review's blockers before fabricating or installing in a vehicle.
+This is a community hardware design shared as-is, with no warranty. It is designed specifically for Volvo/Polestar vehicles — using it on other platforms is unverified. **Use at your own risk.** Review the design review's blockers before fabricating or installing in a vehicle.
