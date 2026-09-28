@@ -11,29 +11,6 @@ A small automotive ADAS harness pass-through box designed in KiCad. It sits inli
 - **Protection:** PESD1CAN ESD diodes on signal lines at the connectors
 - **Connectors:** JAE MX34032NF4 (32-pin automotive, ×2) for the harness pass-through, plus a USB-C and Molex connector
 
-## Repository structure
-
-```
-PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysis/datasheet data
-3D models/     STEP export of the assembled board, plus a rendered preview image
-```
-
-### PCB Files
-
-- `Passthrough_HarnessBox_Final.kicad_pro` / `.kicad_sch` / `.kicad_pcb` — the KiCad project. Open `Passthrough_HarnessBox_Final.kicad_pro` in KiCad 10 to get started.
-- `design_review_2026-08-06.md` — a design review from an earlier revision of the schematic/PCB, covering consistency, ESD/decoupling/stackup checks, and datasheet-verified pinouts for the relay, MOSFET, and analog switches. **Predates the current `_Final` revision** — treat findings as a starting point, not a check of the current files, until it's re-run.
-- `analysis/` — machine-readable analysis output backing that earlier design review (same caveat — predates the `_Final` revision).
-- `datasheets/` — datasheet sync manifest for the BOM parts.
-
-### 3D models
-
-- `Passthrough_HarnessBox.step` — STEP export of the assembled board.
-- `Passthrough_HarnessBox_Final.png` — rendered preview of the assembled board (shown above).
-
-## Status
-
-This is the `_Final` revision of the design, which has diverged substantially from the schematic/PCB the linked design review was run against. The review's specific findings (MPNs, fiducials, decoupling, stackup, etc.) should be re-verified against the current files before fabricating rather than assumed to still apply.
-
 ## Disclaimer
 
 This is a community hardware design shared as-is, with no warranty. Review the design review's blockers before fabricating or installing in a vehicle.
