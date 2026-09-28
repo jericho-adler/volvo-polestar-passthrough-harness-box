@@ -18,9 +18,9 @@ PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysi
 
 ### PCB Files
 
-- `Passthrough_HarnessBox.kicad_pro` / `.kicad_sch` / `.kicad_pcb` / `.kicad_dru` / `.kicad_prl` — the KiCad project. Open `Passthrough_HarnessBox.kicad_pro` in KiCad 10 to get started.
-- `design_review_2026-08-06.md` — a design review covering schematic/PCB consistency, ESD/decoupling/stackup checks, and datasheet-verified pinouts for the relay, MOSFET, and analog switches. See "Blockers before fab" in that file before ordering boards.
-- `analysis/` — machine-readable analysis output (schematic, PCB, EMC, thermal, cross-analysis) backing the design review.
+- `Passthrough_HarnessBox_Final.kicad_pro` / `.kicad_sch` / `.kicad_pcb` — the KiCad project. Open `Passthrough_HarnessBox_Final.kicad_pro` in KiCad 10 to get started.
+- `design_review_2026-08-06.md` — a design review from an earlier revision of the schematic/PCB, covering consistency, ESD/decoupling/stackup checks, and datasheet-verified pinouts for the relay, MOSFET, and analog switches. **Predates the current `_Final` revision** — treat findings as a starting point, not a check of the current files, until it's re-run.
+- `analysis/` — machine-readable analysis output backing that earlier design review (same caveat — predates the `_Final` revision).
 - `datasheets/` — datasheet sync manifest for the BOM parts.
 
 ### 3D models
@@ -30,7 +30,7 @@ PCB Files/     KiCad project (schematic, PCB, rules), design review, and analysi
 
 ## Status
 
-Routing is complete and the schematic/PCB are in sync. Before fabricating, see the "Blockers before fab" section of the design review — outstanding items include populating MPNs on the BOM, adding pick-and-place fiducials, decoupling capacitors near U1/U2, a ground via near D1, and confirming the In2.Cu/B.Cu stackup adjacency.
+This is the `_Final` revision of the design, which has diverged substantially from the schematic/PCB the linked design review was run against. The review's specific findings (MPNs, fiducials, decoupling, stackup, etc.) should be re-verified against the current files before fabricating rather than assumed to still apply.
 
 ## Disclaimer
 
