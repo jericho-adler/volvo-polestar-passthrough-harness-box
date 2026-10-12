@@ -2675,11 +2675,11 @@
 			)
 		)
 	)
-	(footprint "My_Components:Omron G5V-2-DC12"
+	(footprint "My_Components:Omron G5V-2-H1-DC12"
 		(layer "F.Cu")
 		(uuid "7d1fb832-3227-4d26-9955-da1a3c35f4e7")
 		(at 152.4 83.82 -90)
-		(descr "Omron relay - DPDT 12VDC 500mW")
+		(descr "Omron relay - DPDT 12VDC 150mW high-sensitivity (G5V-2-H1)")
 		(tags "Relay or Contactor")
 		(property "Reference" "K1"
 			(at -12.192 0.254 0)
@@ -2692,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Value" "G5V-2 DC12"
+		(property "Value" "G5V-2-H1 DC12"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2704,7 +2704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "G5V-2 DC12"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2715,7 +2715,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Relay, DPDT (2 Form C), high-sensitivity 12 VDC coil (960 ohm, approx. 150 mW), THT, fully sealed"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2726,7 +2726,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "G5V-2-DC12"
+		(property "MFG Part #" "G5V-2-H1 DC12"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2738,7 +2738,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C28089"
+		(property "JLCPCB Part #" "C128021"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2750,7 +2750,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "RELAY_G5V-2_OMR")
+		(property ki_fp_filters "Omron G5V-2*")
 		(path "/f2cb4916-a6b5-41d7-9d20-21a083cda94d")
 		(sheetname "/")
 		(sheetfile "Passthrough_HarnessBox_Final.kicad_sch")

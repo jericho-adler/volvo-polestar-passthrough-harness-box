@@ -3,9 +3,20 @@
 **Date:** 2026-08-06 | **Run:** `analysis/2026-08-06_1457/` | **KiCad:** 10.0 (schematic v20260306)
 **Board:** 73.0 × 43.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 25 components, 73 nets, single sheet.
 
+> **Revised 2026-10-12 — K1 relay change.** K1 is now an **Omron G5V-2-H1 DC12**. The
+> original 2026-08-06 run reviewed a Panasonic TQ2-12V in this position; the board was
+> subsequently moved to an Omron G5V-2 DC12, and on 2026-10-12 to the high-sensitivity
+> `-H1` coil variant. The K1 sections below (verification table, `SS-001`, and the
+> relay-behavior note) were re-verified by hand against the current files and the Omron
+> datasheet on that date. **Everything else in this document is still the 2026-08-06
+> analysis run and has not been re-run** — the layout findings (GP-001, BE-00x, PS-002,
+> DFM-00x, …) predate the relay change. They should survive it, because the G5V-2-H1 is
+> package- and pin-identical to the G5V-2 and no pad, track, or zone moved, but they have
+> not been re-measured.
+
 ## What this board is
 
-A small automotive ADAS harness pass-through box. Two power inputs (VBAT, VOBD) are TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail. A DPDT relay (Panasonic TQ2-12V) sits between camera and VCU signal pairs, wired so the **normally-closed contacts connect CAMERA↔VCU when unpowered** (fail-safe pass-through) and open when VIN is applied — the normally-open throws are left unconnected. Two DG419 SPDT analog switches (U1/U2) route CAMERA/VCU signal pairs under control of an `SBU 1` logic input. PESD1CAN ESD diodes protect the signal lines at the connectors. A small MOSFET (Q1) low-side-switches an unrelated `SBU 2` line, gated by a voltage divider (R2/R3) off `SBU 1`.
+A small automotive ADAS harness pass-through box. Two power inputs (VBAT, VOBD) are TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail. A DPDT relay (Omron G5V-2-H1 DC12) sits between camera and VCU signal pairs, wired so the **normally-closed contacts connect CAMERA↔VCU when unpowered** (fail-safe pass-through) and break that path when VIN is applied, handing each VCU line over to its DG419 analog switch instead. Two DG419 SPDT analog switches (U1/U2) route CAMERA/VCU signal pairs under control of an `SBU 1` logic input. PESD1CAN ESD diodes protect the signal lines at the connectors. A small MOSFET (Q1) low-side-switches an unrelated `SBU 2` line, gated by a voltage divider (R2/R3) off `SBU 1`.
 
 ## Verification basis
 
@@ -17,7 +28,7 @@ A small automotive ADAS harness pass-through box. Two power inputs (VBAT, VOBD) 
 |---|---|---|---|---|
 | DMN3200U-7 (Diodes Inc, SOT-23 N-MOSFET) | Q1 | Pin1=G, Pin2=S, Pin3=D | [diodes.com DS31188 Rev.7](https://www.diodes.com/datasheet/download/DMN3200U.pdf) | **Match** |
 | DG419LEDY-T1-GE4 (Vishay, SOIC-8 SPDT switch) | U1, U2 | 1=COM,2=NC,3=GND,4=V+,5=VL,6=IN,7=V-,8=NO | [Vishay Doc 70051 Rev E](https://www.vishay.com/docs/70051/dg417.pdf), p.1 pin diagram | **Match** — datasheet calls pins 1/2/8 "D/S1/S2"; library's COM/NC/NO are just a naming choice for the same pole/throw terminals. Pins 3–7 (GND,V+,VL,IN,V-) match exactly. |
-| TQ2-12V (Panasonic, 10-pin DPDT relay) | K1 | Pins 1 & 10 = coil (from netlist: pin1→VIN, pin10→GND) | [Panasonic ASCTB14E catalog](https://mediap.industry.panasonic.eu/assets/download-files/import/ds_61020_en_tq.pdf), p.10 "Schematic (Bottom view)" | **Match** — pins 1(+)/10(−) are the coil; pins 2/9=COM, 3/8=NC, 4/7=NO, 5/6=spare (unconnected), confirmed against the datasheet's bottom-view schematic diagram. |
+| G5V-2-H1 DC12 (Omron, DPDT signal relay) | K1 | Pins 16 & 1 = coil (from netlist: pin16→VIN, pin1→GND) | [Omron G5V-2 datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf), "Terminal Arrangement/Internal Connections (Bottom View)" | **Match** — pins 1/16 are the coil (**no coil polarity**, so the VIN/GND orientation is a non-issue); pole 1 is COM=4, NC=6, NO=8 and pole 2 is COM=13, NC=11, NO=9. Verified pin-by-pin against the datasheet's bottom-view internal-connections diagram on 2026-10-12. |
 
 No datasheet was found/verified for the passives, PESD1CAN, STPS2H100ZFY, SMAJ16A, or the connectors — those remain consistency-only.
 
@@ -33,7 +44,7 @@ No datasheet was found/verified for the passives, PESD1CAN, STPS2H100ZFY, SMAJ16
 
 | # | Finding | Severity | Detail |
 |---|---|---|---|
-| 1 | **SS-001** — 0/14 BOM lines have an MPN | High (sourcing) | Every connector, diode, and the relay/MOSFET/switches are `My_Components`/custom entries with no MPN field populated, even though real part numbers are embedded in the `Value` field (e.g. "DMN3200U-7"). Nothing here is orderable through the standard sourcing workflow as-is. **Fix:** copy the value-field part numbers into the MPN property (or run the `bom` skill) before ordering. |
+| 1 | **SS-001** — 1/14 BOM lines have an MPN | High (sourcing) | Every connector, diode, and the MOSFET/switches are `My_Components`/custom entries with no MPN field populated, even though real part numbers are embedded in the `Value` field (e.g. "DMN3200U-7"). Nothing here is orderable through the standard sourcing workflow as-is. **Partially closed 2026-10-12:** K1 now carries `MFG Part # = G5V-2-H1 DC12` and `JLCPCB Part # = C128021` on **both** the schematic symbol and the PCB footprint — the schematic copy is the one that matters, since fields that exist only on the footprint are discarded by the next *Update PCB from Schematic*. **Fix for the rest:** copy the value-field part numbers into the MPN property (or run the `bom` skill) before ordering. |
 | 2 | **FD-001** — 0 fiducials on F.Cu, 19 SMD parts | High (assembly) | No fiducials for pick-and-place vision alignment. Add ≥3 non-symmetric fiducials on F.Cu. |
 | 3 | **DC-002** — U1 and U2 have no decoupling capacitor within 10mm | High (EMC/decoupling) | Both DG419 switches' V+/VL/V- pins have no local bypass cap in the layout. Add 100nF X7R close to each part's supply pins. |
 | 4 | **ES-002** — No ground via within 3mm of D1 (PESD1CAN) | High (ESD) | D1's TVS ground return relies on a long path, undermining ESD clamp effectiveness. Add 1–2 ground vias directly at D1's ground pad. |
@@ -52,7 +63,15 @@ No datasheet was found/verified for the passives, PESD1CAN, STPS2H100ZFY, SMAJ16
 
 ## Design behavior worth confirming with the designer (not a defect)
 
-- **K1's unused NO throws.** Verified against the Panasonic datasheet: this relay is wired as a fail-safe passthrough — with no power applied, the NC contacts connect `CAMERA_H↔VCU_H` and `CAMERA_L↔VCU_L` directly. When VIN is applied, the relay energizes, the NC path opens, and **the NO throws (pins 4 & 7) are not wired to anything** — so the camera/VCU pairs simply go open-circuit rather than being rerouted somewhere else. If the intent is "disconnect for safety while powered," this is correct as built. If the intent was ever to route the camera feed to a diagnostic/alternate path when energized, the NO contacts need wiring — currently unused.
+- **K1's throws — corrected 2026-10-12.** The original note here claimed the NO throws were left unconnected. That was true of the Panasonic TQ2-12V as reviewed on 2026-08-06; **it is not true of the board as it now stands.** Traced against the current netlist and the Omron bottom-view internal-connections diagram, each pole's common is the *VCU* side and both throws are wired:
+
+  | Pole | COM (pin) | NC (pin) | NO (pin) |
+  |---|---|---|---|
+  | 1 | `/VCU_N` (4) | `/CAMERA_N` (6) | `/VCU_N_C` (8) → U2 pin 1 |
+  | 2 | `/VCU_P` (13) | `/CAMERA_P` (11) | `/VCU_P_C` (9) → U1 pin 2 |
+
+  So de-energized gives the fail-safe straight-through `CAMERA↔VCU` path, and energizing K1 does **not** open-circuit the VCU pair — it hands each VCU line to its DG419 analog switch, which then selects the final route under `SBU 1`. The relay and the analog switches are one two-stage path, not two independent ones. This is behavior to confirm as intended, not a defect.
+- **K1 coil rating — an issue the 2026-10-12 change closed.** K1's coil is hard-tied across VIN/GND, so it is energized continuously the whole time the box is powered, and it sees the raw automotive rail. The **standard G5V-2 DC12 that preceded the `-H1` was rated 120% max coil voltage = 14.4 V**, which a running alternator rail (13.8–14.4 V, higher on load dump before the SMAJ16A clamps) sits right on top of. The G5V-2-H1 DC12 is rated **180% max = 21.6 V**, with the coil dropping from 288 Ω/41.7 mA/~500 mW to 960 Ω/12.5 mA/~150 mW. That removes the overvoltage margin problem, cuts ~29 mA of permanent quiescent draw, and reduces the coil self-heating that Omron's “Long-term Continuously ON Contacts” precaution warns about — which applies squarely to this circuit. Pick-up (75% max = 9.0 V) and drop-out (5% min = 0.6 V) are unchanged, so the fail-safe thresholds are the same. **Trade-offs accepted:** max switching current 2 A → 1 A and contact resistance 50 → 100 mΩ max (both far inside spec for camera/VCU signal pairs), and shock *malfunction* rating 200 → 100 m/s² — the one automotive-relevant regression, still well above normal vehicle vibration levels.
 - **Q1's actual role.** Despite sitting near the relay, Q1 (MOSFET) does not drive the relay coil — the coil is hard-tied directly across VIN/GND with no switching, so K1 energizes purely on power presence. Q1 instead low-side-switches the unrelated `SBU 2` line via R7, gated by `SBU 1` through the R2/R3 divider. No flyback diode is needed here since the load (R7→SBU2) is resistive, not inductive — the automated `TR-DET` "no flyback diode" signal on Q1 is a non-issue once the actual net is traced (Q1 isn't driving the coil).
 - **PM-002 edge overhangs (J1: 2.26mm, J3: 7.97mm, J4: 7.7mm, J5: 2.57mm)** — all four are at board edges consistent with their footprint orientation (J5 is a Phoenix pluggable terminal block that always mounts wire-side-out past the edge; J1/J3/J4 sit flush against the bottom/right board edges). This is very likely intentional panel/edge-mount placement for a harness enclosure, not a placement error — but confirm the 7.7–8mm overhangs on J3/J4 clear your enclosure cutout.
 
@@ -72,4 +91,4 @@ No datasheet was found/verified for the passives, PESD1CAN, STPS2H100ZFY, SMAJ16
 
 ---
 
-**Bottom line:** routing is complete and schematic/PCB are in sync — no swapped-pin or missing-net bugs found, and the three riskiest pinout assumptions (relay coil, MOSFET, analog switch) check out against real datasheets. The blocking items before ordering are administrative/manufacturing (add MPNs, add fiducials) plus two layout hardening items (decoupling on U1/U2, ground via at D1) and one stackup question (In2/B.Cu adjacency) worth a deliberate answer rather than fixing.
+**Bottom line:** routing is complete and schematic/PCB are in sync — no swapped-pin or missing-net bugs found, and the three riskiest pinout assumptions (relay coil, MOSFET, analog switch) check out against real datasheets, the relay re-verified for the G5V-2-H1 on 2026-10-12. The blocking items before ordering are administrative/manufacturing (add MPNs, add fiducials) plus two layout hardening items (decoupling on U1/U2, ground via at D1) and one stackup question (In2/B.Cu adjacency) worth a deliberate answer rather than fixing.

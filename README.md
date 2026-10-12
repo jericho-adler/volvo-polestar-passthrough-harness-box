@@ -6,7 +6,7 @@ A small automotive ADAS harness pass-through box designed in KiCad, built for **
 
 - **Board:** 73.0 × 43.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 25 components, 73 nets
 - **Power inputs:** VBAT and VOBD, each TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail
-- **Fail-safe passthrough:** a DPDT relay (Panasonic TQ2-12V) wired so the normally-closed contacts connect CAMERA↔VCU when the box is unpowered, and open when VIN is applied
+- **Fail-safe passthrough:** a DPDT relay (Omron G5V-2-H1 DC12) wired so the normally-closed contacts connect CAMERA↔VCU when the box is unpowered, and open when VIN is applied. The coil sits directly across VIN/GND, so the high-sensitivity `-H1` variant is used: 150 mW instead of 500 mW, and a 180% max coil voltage (21.6 V) that tolerates a running alternator rail
 - **Signal switching:** two DG419 SPDT analog switches route CAMERA/VCU signal pairs under control of an `SBU 1` logic input
 - **Protection:** PESD1CAN ESD diodes on signal lines at the connectors
 - **Connectors:** JAE MX34032NF4 (32-pin automotive, ×2) for the harness pass-through, plus a USB-C and Molex connector

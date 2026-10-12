@@ -5,7 +5,7 @@
 	(uuid "9bff95d7-5e0b-4644-a7b2-cd392dfbdb8f")
 	(paper "A")
 	(lib_symbols
-		(symbol "2026-08-07_12-56-36:G5V-2_DC12"
+		(symbol "2026-08-07_12-56-36:G5V-2-H1_DC12"
 			(pin_names
 				(offset 0.254)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "G5V-2 DC12"
+			(property "Value" "G5V-2-H1 DC12"
 				(at 20.32 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RELAY_G5V-2_OMR"
+			(property "Footprint" "My_Components:Omron G5V-2-H1-DC12"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,7 +46,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "G5V-2 DC12"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Relay, DPDT (2 Form C), high-sensitivity 12 VDC coil (960 ohm, approx. 150 mW), THT, fully sealed"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "G5V-2 DC12"
+			(property "ki_keywords" "relay DPDT 2 Form C signal relay G5V-2-H1 Omron"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "RELAY_G5V-2_OMR"
+			(property "ki_fp_filters" "Omron G5V-2*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(symbol "G5V-2_DC12_0_1"
+			(symbol "G5V-2-H1_DC12_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
@@ -61481,7 +61481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-08-07_12-56-36:G5V-2_DC12")
+		(lib_id "2026-08-07_12-56-36:G5V-2-H1_DC12")
 		(at 90.17 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -61501,7 +61501,7 @@
 				)
 			)
 		)
-		(property "Value" "G5V-2 DC12"
+		(property "Value" "G5V-2-H1 DC12"
 			(at 109.982 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61511,7 +61511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Components:Omron G5V-2-DC12"
+		(property "Footprint" "My_Components:Omron G5V-2-H1-DC12"
 			(at 90.17 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -61523,7 +61523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "G5V-2 DC12"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf"
 			(at 90.17 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -61535,7 +61535,29 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Relay, DPDT (2 Form C), high-sensitivity 12 VDC coil (960 ohm, approx. 150 mW), THT, fully sealed"
+			(at 90.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "G5V-2-H1 DC12"
+			(at 90.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C128021"
 			(at 90.17 90.17 0)
 			(hide yes)
 			(show_name no)
