@@ -9,9 +9,6 @@
 
 
 A small automotive ADAS harness pass-through box designed in KiCad, built for **Volvo/Polestar** vehicles. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
-
-![Assembled board render, showing the VCU and CAR Harness connectors](3D%20models/Passthrough_HarnessBox_Final.png)
-
 - **Board:** 73.0 × 43.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 25 components, 73 nets
 - **Power inputs:** VBAT and VOBD, each TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail
 - **Fail-safe passthrough:** a DPDT relay (Omron G5V-2-H1 DC12) wired so the normally-closed contacts connect CAMERA↔VCU when the box is unpowered, and open when VIN is applied. The coil sits directly across VIN/GND, so the high-sensitivity `-H1` variant is used: 150 mW instead of 500 mW, and a 180% max coil voltage (21.6 V) that tolerates a running alternator rail
@@ -53,11 +50,6 @@ The original comma.ai-style VCU/CAMERA spoof path — relay `K1` plus the two DG
 | PCB layout | **Not started** — 44 footprints placed, 0 tracks, 0 vias |
 | Firmware | Not started |
 | Bench / vehicle testing | Not started |
-
-Known open items: there are **no bus termination resistors** in the schematic yet — the value and whether
-they are fitted at all depend on the real bus topology; optional per-pin 100 nF decoupling at each
-transceiver's `VCC`/`VIO` is not placed; and `D9`/`D10`/`D11` carry datasheet links naming their sibling
-devices (SMAJ36, PESD1CAN) rather than the parts actually fitted.
 
 Project files live in [`PCB Files/Polestar_Flexray/`](PCB%20Files/Polestar_Flexray/).
 
