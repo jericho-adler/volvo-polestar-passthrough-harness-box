@@ -38,7 +38,7 @@ transceiver, with the microcontroller between them relaying frames.
   inductor, feeding the XIAO's 5 V input; the XIAO's 3V3 regulator in turn supplies transceiver `VIO`
 - **Protection:** PESD1FLEX ESD diodes (`D10`, `D11`) on each bus half at its connector
 
-The original comma.ai-style VCU/CAMERA spoof path — relay `K1` plus the two DG419 analog switches — is
+The original harness board — relay `K1` plus the two DG419 analog switches — is
 **unchanged** and operates independently of the FlexRay circuit.
 
 ### Status
