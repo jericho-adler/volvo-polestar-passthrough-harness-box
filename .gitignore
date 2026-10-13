@@ -7,3 +7,9 @@ __pycache__/
 
 # Local Claude Code session settings (machine-specific, not project source)
 .claude/
+
+# KiCad per-user local project state (view/window settings, not design source)
+*.kicad_prl
+
+# KiCad editor lock files (present only while a project is open)
+~*.lck
