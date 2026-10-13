@@ -48,8 +48,8 @@ The original comma.ai-style VCU/CAMERA spoof path — relay `K1` plus the two DG
 | Schematic | Complete — 44 components, 0 ERC errors |
 | Footprints & 3D models | All 44 components assigned and resolving |
 | PCB layout | **Not started** — 44 footprints placed, 0 tracks, 0 vias |
-| Firmware | Not started |
-| Bench / vehicle testing | Not started |
+| Firmware | In Progress with Dev Board |
+| Bench / vehicle testing | In Progress with Dev Board |
 
 Project files live in [`PCB Files/Polestar_Flexray/`](PCB%20Files/Polestar_Flexray/).
 
