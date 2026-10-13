@@ -51,7 +51,7 @@ The original comma.ai-style VCU/CAMERA spoof path — relay `K1` plus the two DG
 | Firmware | In Progress with Dev Board |
 | Bench / vehicle testing | In Progress with Dev Board |
 
-Project files live in [`PCB Files/Polestar_Flexray/`](PCB%20Files/Polestar_Flexray/).
+Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{pro,sch,pcb}`.
 
 
 ## License
