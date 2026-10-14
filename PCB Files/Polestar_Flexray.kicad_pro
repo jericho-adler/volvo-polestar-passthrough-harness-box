@@ -524,14 +524,88 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CAN_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "CAN_Car",
+        "pcb_color": "rgb(0, 40, 160)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 40, 160)",
         "track_width": 0.15,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN_Comma",
+        "pcb_color": "rgb(0, 170, 190)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 170, 190)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN_Pass",
+        "pcb_color": "rgb(220, 0, 160)",
+        "priority": 1,
+        "schematic_color": "rgb(220, 0, 160)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FR_Car",
+        "pcb_color": "rgb(255, 140, 0)",
+        "priority": 2147483647,
+        "schematic_color": "rgb(255, 140, 0)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FR_ECU",
+        "pcb_color": "rgb(150, 60, 200)",
+        "priority": 2147483647,
+        "schematic_color": "rgb(150, 60, 200)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -560,52 +634,76 @@
     "netclass_assignments": {},
     "netclass_patterns": [
       {
+        "netclass": "FR_Car",
+        "pattern": "/FR_VEH_BP"
+      },
+      {
+        "netclass": "FR_Car",
+        "pattern": "/FR_VEH_BM"
+      },
+      {
+        "netclass": "FR_Car",
+        "pattern": "/TERM_VEH_P"
+      },
+      {
+        "netclass": "FR_Car",
+        "pattern": "/TERM_VEH_N"
+      },
+      {
+        "netclass": "FR_ECU",
+        "pattern": "/FR_ECU_BP"
+      },
+      {
+        "netclass": "FR_ECU",
+        "pattern": "/FR_ECU_BM"
+      },
+      {
+        "netclass": "FR_ECU",
+        "pattern": "/TERM_ECU_P"
+      },
+      {
+        "netclass": "FR_ECU",
+        "pattern": "/TERM_ECU_N"
+      },
+      {
+        "netclass": "CAN_Car",
+        "pattern": "/VCU_P"
+      },
+      {
+        "netclass": "CAN_Car",
+        "pattern": "/VCU_N"
+      },
+      {
+        "netclass": "CAN_Comma",
+        "pattern": "/COMMA_P"
+      },
+      {
+        "netclass": "CAN_Comma",
+        "pattern": "/COMMA_N"
+      },
+      {
+        "netclass": "CAN_Comma",
+        "pattern": "/VCU_P_C"
+      },
+      {
+        "netclass": "CAN_Comma",
+        "pattern": "/VCU_N_C"
+      },
+      {
+        "netclass": "CAN_Pass",
+        "pattern": "/CAMERA_P"
+      },
+      {
+        "netclass": "CAN_Pass",
+        "pattern": "/CAMERA_N"
+      },
+      {
         "netclass": "Power",
         "pattern": "VIN"
       },
       {
         "netclass": "Power",
         "pattern": "/IGN"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/CAMERA_H"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/CAMERA_L"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/COMMA_H"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/COMMA_L"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/RADAR_H"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/RADAR_L"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/VCU_H"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/VCU_L"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/VCU_H_C"
-      },
-      {
-        "netclass": "CAN_diff",
-        "pattern": "/VCU_L_C"
       }
     ]
   },
