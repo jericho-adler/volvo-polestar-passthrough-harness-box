@@ -70,6 +70,27 @@ The original harness board — relay `K1` plus the two DG419 analog switches —
 | Firmware | In Progress with Dev Board |
 | Bench / vehicle testing | In Progress with Dev Board |
 
+### Libraries
+
+Custom symbols and footprints live in [`Library/`](Library/), and [`PCB Files/`](PCB%20Files/) carries
+project-local `fp-lib-table` and `sym-lib-table` pointing at them through `${KIPRJMOD}`. The project
+therefore opens on a fresh clone without editing any global KiCad library table.
+
+| | |
+|---|---|
+| `Library/Symbols/` | 6 symbol libraries — 17 custom symbols, all resolving |
+| `Library/Footprints.pretty/` | 91 footprints — the 33 used by this design all resolve |
+
+Everything else comes from stock KiCad libraries (`Device`, `power`, `Crystal`, `Inductor_SMD`,
+`Package_SO`, `Package_SON`, `MountingHole`).
+
+> [!NOTE]
+> **3D models are not included.** 44 of the model references point at a personal model directory
+> (`${KICAD_USER_3D_MODELS}`, 14 distinct files — the XIAO, both JAE connectors, Molex, TJA1082,
+> DG419, TCAN4550 and others). Those parts will render as bare pads in the 3D viewer on a clone.
+> The design, netlist, footprints and fabrication outputs are unaffected. The remaining 36 model
+> references resolve from stock KiCad.
+
 Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{pro,sch,pcb,dru}`.
 
 > [!IMPORTANT]

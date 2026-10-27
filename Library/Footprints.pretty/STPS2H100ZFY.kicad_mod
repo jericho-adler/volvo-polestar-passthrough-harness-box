@@ -1,0 +1,251 @@
+(footprint "STPS2H100ZFY"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ST automotive rectifier, 100V, 2A")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "307e3251-1352-414b-aa3c-9f11ea62b071")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "STPS2H100ZFY"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71945029-9ba9-417a-b597-e74966d1441e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "kicad-embed://STPS2H100ZFY.kicad_mod"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5769631d-78b2-4bcc-aa48-0da01dfcaa10")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "ST automotive rectifier, 100V, 2A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25c48fc0-4fef-45d9-904f-5d220bad42c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MFG Part #" "STPS2H100ZFY"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "147fbfd3-dfb8-43d7-8fe3-53084ec358f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C2969868"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fe51e806-7233-437e-b9f0-7f556ed9754c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.07 -0.825)
+		(end 1.3 -0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee7b2e24-f1a8-462a-9a7b-8aa33bad3000")
+	)
+	(fp_line
+		(start -1.3 0.825)
+		(end 1.3 0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e602657-b8c2-4479-9219-872faf29039b")
+	)
+	(fp_line
+		(start -2.22 -1.05)
+		(end 2.22 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcee877d-e8ac-4b66-a9b6-14804987615e")
+	)
+	(fp_line
+		(start -2.22 1.05)
+		(end -2.22 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "563b8faa-39e8-4426-afa9-545c76cff057")
+	)
+	(fp_line
+		(start 2.22 -1.05)
+		(end 2.22 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e21235a-6038-4052-afef-cb4801abbfba")
+	)
+	(fp_line
+		(start 2.22 1.05)
+		(end -2.22 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb8decb1-e1ab-44f3-a89a-9a2e9ec30945")
+	)
+	(fp_line
+		(start -1.3 -0.825)
+		(end 1.3 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d44a78aa-7de2-4723-807c-119135f07163")
+	)
+	(fp_line
+		(start -1.3 -0.255)
+		(end -0.73 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "facd08fd-7815-463c-83b7-63cf040b91db")
+	)
+	(fp_line
+		(start -1.3 0.825)
+		(end -1.3 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a16abd86-f93f-4f2f-a302-9ea2184d683a")
+	)
+	(fp_line
+		(start 1.3 -0.825)
+		(end 1.3 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b90d93a-4e60-4f34-b275-a951bb168807")
+	)
+	(fp_line
+		(start 1.3 0.825)
+		(end -1.3 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "334006ff-d896-41e4-b84e-8c2277717c49")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1bfafc9-8477-4a3b-b338-81d6f7dc651b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0 90)
+		(size 1.04 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "474d1e5e-a286-4808-a586-a72d34b61435")
+	)
+	(pad "2" smd rect
+		(at 1.5 0 90)
+		(size 1.04 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eff8b623-ac8d-4a8f-b9fe-d2c8a5e4f908")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "STPS2H100ZFY.kicad_mod")
+			(type other)
+			(data |KLUv/WDwDE0gAGpBSAsjEFXzapW/7H0/c0GU7MJRgR8PopjCComEW5pnHWoFAGBPHAi+AKoAmwAq
+				qZeWMSVlr1zF7GTkIoxTZ+OBU7Joia2GhcYvlFjRTE2YiSKvdExnoxY4NUmMjzhRrTxPABDV6f8u
+				nX5jDa79NOE2OHvGXR4pK/UahjqXSzPRQXEmmKmRAMDAIKFhGp8Vh/xdomFEKuSWB7I4fZyEhok0
+				YqU4aFhYKiVATMzI6QVhstAwkItECk84NRkNiFfktDQM9NQIecU1ChorbooVU3mcCPIPAoAAgeZi
+				AYM5MaiJCIqJhqkVB7LU53mCKv5H+JLRxnily7hMYa//42VmqZ2+NNsl+iw5X/gt163UKxfzLoYN
+				WTLqUJ6IcYtILdio1AHxjgeq0ZokhlaYehNexvFELVOhWCOvOJQMyz8VxuJx4chwKGZEkEuPSyWD
+				RkuG1zgdiuVCPSIGqjXCXusfttdNrlxU7uTUm96z5aT6f6nK41SLk7j1Y+pmYrgPwrjKZ696NjfB
+				1k7GhYZpqvtGFGtM8ElXmixLRtnoc72k2/dnveo13NmWZE/GZfwJNpQvrVWJwaWfen893SlZlMup
+				Y8oddahog1HBXavJbTZ7pZtrU5vcJmQpvsSit2bMallDuBK6Xn6Mt7k1nUEqF1XJ37Ho5EJXbyWn
+				3qYmrz9J53Q/01PPZUzMeNtrcaF8vcpd71Qd25JuH2uJH3UOuZfbv43PemebcmVLDXZqelEhBFZq
+				EgECBV5jfaDklDhHREKqR/+PpUYTitPHI4M6pS49XL389e1RyGwde3Ffcu+DlC1jtEX6pmqat5VY
+				9WLd21bHlex7Y8PE3FN5jWJERxQdok7NkGGG1ekQ00TYGKvV3lsu99u/fede55PtQ/bKv0QB4UFB
+				QmFBQYJkILowNcQrT3/FvOdav+sfLoOqF8qY1sk4O8XmpzHOx3AhXXBdfa9ylK5s1mZMKX6gIaEx
+				SDEzIiOByEySblCKTM3c5pgZIPwL7GFgkQ0RM3tAxl9tsIAe3q0pmUzqlWdL9PYWurwjTEjfOptm
+				PEs7ZTYKLJ9pDeSAcRK/mM0eYoe5RmQjlNUZfmS65A83EDIw8jrAYx4ASJ30MkiaSepUBIIFeBPB
+				b8xOMa1ZxKJhYgZsBlgWUvMk1YZe55ywJ2i3Y1RTtZRlojFl5qU0E6VJkpd1hoMa3f8ArcAx/kLi
+				xoq4pU3NyEAK1AB+hQ2YYyCJj8wqIIAqQ4/nukye/xpmIHj9ARrKIWkk2o4FRFhyuWEwIxxAhRJ6
+				0t7Qc5/CzABNA+kGiNy5zAmoXm1H9OtADADVcErGsMa2Yg3YLQyKbCYCeBww7ig9+8FgCLERQqeh
+				64Yv+CSjAIzKIQytSEa2VwE=|
+			)
+			(checksum "FEE2E010FBEB748B4FA2F305AA15BA60")
+		)
+	)
+	(model "${KICAD_USER_3D_MODELS}/STPS2H100ZFY.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

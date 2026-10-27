@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "My_Components")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/My_Components.kicad_sym")(options "")(descr "Project symbol library"))
+	(lib (name "2026-08-07_12-56-36")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/2026-08-07_12-56-36.kicad_sym")(options "")(descr "Imported symbol snapshot"))
+	(lib (name "2026-08-11_15-27-44")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/2026-08-11_15-27-44.kicad_sym")(options "")(descr "Imported symbol snapshot"))
+	(lib (name "2026-08-14_17-36-17")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/2026-08-14_17-36-17.kicad_sym")(options "")(descr "Imported symbol snapshot"))
+	(lib (name "2026-08-14_18-09-32")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/2026-08-14_18-09-32.kicad_sym")(options "")(descr "Imported symbol snapshot"))
+	(lib (name "2026-08-14_22-53-24")(type "KiCad")(uri "${KIPRJMOD}/../Library/Symbols/2026-08-14_22-53-24.kicad_sym")(options "")(descr "Imported symbol snapshot"))
+)
