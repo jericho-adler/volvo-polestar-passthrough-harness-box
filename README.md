@@ -9,7 +9,8 @@
 
 
 A small automotive ADAS harness pass-through box designed in KiCad, built for **Volvo/Polestar** vehicles. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
-- **Board:** 73.0 × 43.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 25 components, 73 nets
+- **Board:** 98.0 × 58.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 80 components, 126 nets.
+  Corners are radiused 3.8 mm, concentric with the four M3 mounting holes
 - **Power inputs:** VBAT and VOBD, each TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail
 - **Fail-safe passthrough:** a DPDT relay (Omron G5V-2-H1 DC12) wired so the normally-closed contacts connect CAMERA↔VCU when the box is unpowered, and open when VIN is applied. The coil sits directly across VIN/GND, so the high-sensitivity `-H1` variant is used: 150 mW instead of 500 mW, and a 180% max coil voltage (21.6 V) that tolerates a running alternator rail
 - **Signal switching:** two DG419 SPDT analog switches route CAMERA/VCU signal pairs under control of an `SBU 1` logic input
@@ -41,17 +42,39 @@ transceiver, with the microcontroller between them relaying frames.
 The original harness board — relay `K1` plus the two DG419 analog switches — is
 **unchanged** and operates independently of the FlexRay circuit.
 
+### Mechanical and DRC notes
+
+- **Outline:** 98.0 × 58.0 mm. The four corners are arcs of **R3.8 mm** whose centres sit exactly on the
+  mounting-hole centres, so each corner is concentric with its hole.
+- **Mounting:** 4 × M3 holes, 3.2 mm drill, **non-plated**, inset 3.8 mm from both edges (`H1`–`H4`).
+  They are deliberately non-plated so the enclosure screws do not bond chassis to board ground — harness
+  pin 13 is not board GND. They exist on the PCB only, with no schematic symbols, so do not tick
+  *delete footprints with no symbol* when running **Update PCB from Schematic**.
+- **Edge-mounted connectors:** `J1`–`J4` overhang the board edge by design. `J3`/`J4` (JAE MX34032NF4)
+  project 7.8 mm past the left and right edges respectively; their pads remain fully on the board.
+- **Custom DRC rule** (`Polestar_Flexray.kicad_dru`): exempts intra-footprint pad spacing on `U3` and `U8`
+  only. Both footprints reproduce the manufacturer's own land pattern exactly — `U8` matches TI drawing
+  4225320/A (RGY0020A), which places the exposed pad 0.025 mm from every perimeter pin. Those pads are
+  non-solder-mask-defined, so bridging is controlled by the stencil (78% paste coverage on pad 21) rather
+  than by copper spacing. The rule is scoped to `U3`/`U8` so every other footprint is still checked normally.
+
 ### Status
 
 | | |
 |---|---|
-| Schematic | Complete — 44 components, 0 ERC errors |
-| Footprints & 3D models | All 44 components assigned and resolving |
-| PCB layout | **Not started** — 44 footprints placed, 0 tracks, 0 vias |
+| Schematic | Complete — 80 components, 0 ERC errors |
+| Footprints & 3D models | All 80 components assigned and resolving |
+| Placement | Complete — 84 footprints (80 components + 4 mounting holes) on a 98 × 58 mm outline |
+| Routing | **Not started** — 0 tracks, 0 vias; In1.Cu ground pour defined but unfilled |
+| DRC | 0 clearance, 0 courtyard-overlap, 0 copper-to-edge, 0 invalid-outline. Remaining items are 239 unrouted ratsnest connections and ~138 cosmetic silkscreen warnings |
 | Firmware | In Progress with Dev Board |
 | Bench / vehicle testing | In Progress with Dev Board |
 
-Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{pro,sch,pcb}`.
+Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{pro,sch,pcb,dru}`.
+
+> [!IMPORTANT]
+> `Polestar_Flexray.kicad_dru` carries a custom DRC rule and must be kept beside the project files.
+> Without it the board reports 26 false clearance errors. See **Mechanical and DRC notes** above.
 
 
 ## License

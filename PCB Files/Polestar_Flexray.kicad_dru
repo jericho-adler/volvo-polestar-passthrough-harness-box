@@ -1,0 +1,19 @@
+(version 1)
+
+# Exposed-thermal-pad to perimeter-pin spacing on U8 (TCAN4550-Q1, VQFN-20 RGY) and
+# U3 (LM53600-Q1, VSON-10).  Both board footprints reproduce the manufacturer's own
+# recommended land pattern exactly:
+#
+#   U8 - TI drawing 4225320/A (RGY0020A, 09/2019) "LAND PATTERN EXAMPLE":
+#        pads 20X 0.6 x 0.24 on 0.5 mm pitch, exposed pad 2.05 x 3.05, extents 3.3 x 4.3.
+#        That geometry leaves 0.025 mm between EP 21 and every perimeter pad.
+#   U3 - KiCad Package_SON VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm: adjacent 0.5 mm-pitch
+#        pins sit 0.26 mm apart, under the 0.3 mm Power netclass rule.
+#
+# These pads are non-solder-mask-defined, so there is deliberately no mask dam between
+# the exposed pad and the pins; TI controls bridging through the stencil design
+# (78% paste coverage on pad 21), not through copper spacing.  Scoped to U3/U8 only so
+# that any other footprint is still checked normally.
+(rule "Manufacturer land pattern - intra-footprint pad spacing (U3, U8)"
+  (constraint clearance (min 0.02mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Reference == B.Reference && (A.Reference == 'U8' || A.Reference == 'U3')"))
