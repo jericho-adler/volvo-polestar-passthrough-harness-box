@@ -4,8 +4,8 @@
 
 > [!WARNING]
 > **This branch (`flexray-integration`) is work in progress and has not been built or tested in a vehicle.**
-> The FlexRay schematic is complete and ERC-clean, but **the PCB is unrouted** — footprints are placed,
-> no copper is laid. Do not fabricate from this branch. The `main` branch holds the last stable design.
+> The FlexRay schematic is complete and ERC-clean, and the PCB is fully routed and DRC-clean, but no board
+> has been fabricated or bench-tested yet. The `main` branch holds the last stable design.
 
 
 A small automotive ADAS harness pass-through box designed in KiCad, built for **Volvo/Polestar** vehicles. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
@@ -65,8 +65,8 @@ The original harness board — relay `K1` plus the two DG419 analog switches —
 | Schematic | Complete — 80 components, 0 ERC errors |
 | Footprints & 3D models | All 80 components assigned and resolving |
 | Placement | Complete — 84 footprints (80 components + 4 mounting holes) on a 98 × 58 mm outline |
-| Routing | **Not started** — 0 tracks, 0 vias; In1.Cu ground pour defined but unfilled |
-| DRC | 0 clearance, 0 courtyard-overlap, 0 copper-to-edge, 0 invalid-outline. Remaining items are 239 unrouted ratsnest connections and ~138 cosmetic silkscreen warnings |
+| Routing | **Complete** — 1370 track segments, 224 vias, 0 unrouted. In1.Cu is a solid GND pour; In2.Cu is a +5V plane with a VIN island under the input and buck section; all pours filled |
+| DRC | 0 errors, 0 unconnected, 0 silkscreen warnings. The only warnings left are 12 footprints that differ from `Library/` (board-local silkscreen trims) and 4 schematic-parity notes for the `H1`–`H4` mounting holes, which have no symbols |
 | Firmware | In Progress with Dev Board |
 | Bench / vehicle testing | In Progress with Dev Board |
 
