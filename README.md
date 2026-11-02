@@ -22,12 +22,12 @@ A small automotive ADAS harness pass-through box designed in KiCad, built for **
 This branch adds a **man-in-the-middle tap on the vehicle's FlexRay bus** (harness pins 29 & 30) to the
 existing pass-through box, so the bus can be observed and rewritten in transit rather than merely bridged.
 
-The FlexRay pair no longer runs straight from `J3` (vehicle) to `J4` (ECU/module). It is cut into two
-independent halves — `FR_VEH_BP`/`FR_VEH_BM` and `FR_ECU_BP`/`FR_ECU_BM` — each terminated in its own
-transceiver, with the microcontroller between them relaying frames.
+The FlexRay pair no longer runs straight from `J4` (car harness) to `J3` (VCU module). It is cut into two
+independent halves — `FR_VEH_P`/`FR_VEH_N` on `J4` and `FR_ECU_P`/`FR_ECU_N` on `J3` — each terminated in
+its own transceiver, with the microcontroller between them relaying frames.
 
 - **Controller:** Seeed **XIAO RP2350** module (`U4`), running [dynm/pico-flexray](https://github.com/dynm/pico-flexray)
-- **Transceivers:** two **NXP TJA1082** (`U5` vehicle side, `U6` ECU side), one per bus half. Logic pins run
+- **Transceivers:** two **NXP TJA1082** (`U5` VCU module side on `J3`, `U6` car harness side on `J4`), one per bus half. Logic pins run
   to the XIAO as `FR1_*`/`FR2_*` (RXD/TXD/TXEN) with shared `FR_BGE` and `FR_STBN`; `VCC` on +5 V, `VIO` on
   +3.3 V so the module's own LDO sets the logic level
 - **Fail-safe bypass:** a second DPDT relay `K2` (Omron G5V-2-H1 DC12) whose **normally-closed** contacts bridge
