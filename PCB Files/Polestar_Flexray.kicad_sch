@@ -57946,7 +57946,7 @@
 		)
 		(uuid "0a965a25-60bb-4de8-869f-250bf3e2d1f8")
 	)
-	(label "TERM_VEH_P"
+	(label "TERM_ECU_P"
 		(at 104.14 336.55 0)
 		(effects
 			(font
@@ -57966,7 +57966,7 @@
 		)
 		(uuid "148cd98d-7915-41c1-bfd8-82cdb20f7060")
 	)
-	(label "VCU_N_C"
+	(label "VCU_C_N"
 		(at 134.62 38.1 180)
 		(effects
 			(font
@@ -58016,7 +58016,7 @@
 		)
 		(uuid "21c1d6bf-d752-495b-b89e-f7eb49ac0c49")
 	)
-	(label "VCU_P_C"
+	(label "VCU_C_P"
 		(at 50.8 31.75 0)
 		(effects
 			(font
@@ -58046,7 +58046,7 @@
 		)
 		(uuid "2c922f84-077b-457c-b32f-bf9fd6062450")
 	)
-	(label "FR_VEH_BP"
+	(label "FR_ECU_P"
 		(at 231.14 93.98 180)
 		(effects
 			(font
@@ -58066,7 +58066,7 @@
 		)
 		(uuid "2e902042-b663-4258-9800-8b23a4f9156e")
 	)
-	(label "VCU_N_C"
+	(label "VCU_C_N"
 		(at 50.8 34.29 0)
 		(effects
 			(font
@@ -58086,7 +58086,7 @@
 		)
 		(uuid "2fad10fb-2e95-4897-8385-32ace9b57583")
 	)
-	(label "FR_ECU_BP"
+	(label "FR_VEH_P"
 		(at 372.11 240.03 180)
 		(effects
 			(font
@@ -58096,7 +58096,7 @@
 		)
 		(uuid "30ba2461-83fd-4e13-b253-86004c161b29")
 	)
-	(label "FR_VEH_BM"
+	(label "FR_ECU_N"
 		(at 101.6 262.89 0)
 		(effects
 			(font
@@ -58116,7 +58116,7 @@
 		)
 		(uuid "35d7ac2f-8c60-492f-9456-7fd91495a9da")
 	)
-	(label "FR_ECU_BP"
+	(label "FR_VEH_P"
 		(at 237.49 93.98 0)
 		(effects
 			(font
@@ -58146,7 +58146,7 @@
 		)
 		(uuid "3b9921b3-7288-4cd0-8075-563f2ecaf19d")
 	)
-	(label "VCU_P_C"
+	(label "VCU_C_P"
 		(at 134.62 59.69 180)
 		(effects
 			(font
@@ -58186,7 +58186,7 @@
 		)
 		(uuid "3fa93ff4-4f3e-47fe-bad4-1f7940891913")
 	)
-	(label "FR_VEH_BP"
+	(label "FR_ECU_P"
 		(at 101.6 255.27 0)
 		(effects
 			(font
@@ -58298,7 +58298,7 @@
 		)
 		(uuid "620d49ca-bef1-40aa-94e2-e46b141d8e59")
 	)
-	(label "FR_VEH_BP"
+	(label "FR_ECU_P"
 		(at 237.49 243.84 0)
 		(effects
 			(font
@@ -58328,7 +58328,7 @@
 		)
 		(uuid "6dba185a-c659-467f-a944-49db98dd66e2")
 	)
-	(label "FR_VEH_BP"
+	(label "FR_ECU_P"
 		(at 104.14 331.47 0)
 		(effects
 			(font
@@ -58358,7 +58358,7 @@
 		)
 		(uuid "70010293-80ad-48d1-990f-4a48b4d02c6c")
 	)
-	(label "TERM_VEH_N"
+	(label "TERM_ECU_N"
 		(at 171.45 336.55 180)
 		(effects
 			(font
@@ -58368,7 +58368,7 @@
 		)
 		(uuid "70dad5ca-117a-4025-b462-9219012050c7")
 	)
-	(label "FR_ECU_BM"
+	(label "FR_VEH_N"
 		(at 171.45 334.01 180)
 		(effects
 			(font
@@ -58378,7 +58378,7 @@
 		)
 		(uuid "73d3804f-1f74-4095-844c-70cb234d4c7c")
 	)
-	(label "VCU_P_C"
+	(label "VCU_C_P"
 		(at 289.56 119.38 180)
 		(effects
 			(font
@@ -58448,7 +58448,7 @@
 		)
 		(uuid "7d626807-5b33-443d-9f25-5b0d3aabce2d")
 	)
-	(label "FR_ECU_BM"
+	(label "FR_VEH_N"
 		(at 372.11 242.57 180)
 		(effects
 			(font
@@ -58488,7 +58488,7 @@
 		)
 		(uuid "83680d64-21a4-4f96-b7cf-d6dc556e7177")
 	)
-	(label "FR_VEH_BM"
+	(label "FR_ECU_N"
 		(at 171.45 331.47 180)
 		(effects
 			(font
@@ -58498,7 +58498,7 @@
 		)
 		(uuid "858a657d-2999-4bdb-b75d-f80786575fb6")
 	)
-	(label "FR_ECU_BP"
+	(label "FR_VEH_P"
 		(at 104.14 278.13 0)
 		(effects
 			(font
@@ -58518,7 +58518,7 @@
 		)
 		(uuid "888f5adf-ddf7-4278-86e5-edfb7baa00d0")
 	)
-	(label "VCU_N_C"
+	(label "VCU_C_N"
 		(at 260.35 119.38 0)
 		(effects
 			(font
@@ -58528,7 +58528,7 @@
 		)
 		(uuid "88b4dd0f-c240-464a-9cb9-864a13daf8d7")
 	)
-	(label "FR_ECU_BM"
+	(label "FR_VEH_N"
 		(at 254 332.74 180)
 		(effects
 			(font
@@ -58538,7 +58538,7 @@
 		)
 		(uuid "8a926aab-b783-4935-b9d1-fe1174cdfc74")
 	)
-	(label "VCU_P_C"
+	(label "VCU_C_P"
 		(at 99.06 48.26 0)
 		(effects
 			(font
@@ -58548,7 +58548,7 @@
 		)
 		(uuid "8c6f3fd1-160c-4fc0-a113-3601e81c9025")
 	)
-	(label "FR_ECU_BP"
+	(label "FR_VEH_P"
 		(at 104.14 334.01 0)
 		(effects
 			(font
@@ -58579,7 +58579,7 @@
 		)
 		(uuid "980e36f6-319e-41a3-9ea4-3aaf8e336d66")
 	)
-	(label "FR_VEH_BM"
+	(label "FR_ECU_N"
 		(at 231.14 96.52 180)
 		(effects
 			(font
@@ -58599,7 +58599,7 @@
 		)
 		(uuid "9937b35c-e780-4480-b9e4-2839a6f77889")
 	)
-	(label "FR_VEH_BM"
+	(label "FR_ECU_N"
 		(at 237.49 241.3 0)
 		(effects
 			(font
@@ -58742,7 +58742,7 @@
 		)
 		(uuid "b0e28e44-4e04-42d8-b976-865d3329cc97")
 	)
-	(label "VCU_P_C"
+	(label "VCU_C_P"
 		(at 139.7 100.33 180)
 		(effects
 			(font
@@ -58846,7 +58846,7 @@
 		)
 		(uuid "c40b74d6-ff0b-4689-8898-a012d90f333b")
 	)
-	(label "VCU_N_C"
+	(label "VCU_C_N"
 		(at 81.28 100.33 0)
 		(effects
 			(font
@@ -58887,7 +58887,7 @@
 		)
 		(uuid "d04fa697-37f9-41e5-9261-f066d90863c3")
 	)
-	(label "FR_ECU_BP"
+	(label "FR_VEH_P"
 		(at 187.96 332.74 0)
 		(effects
 			(font
@@ -58917,7 +58917,7 @@
 		)
 		(uuid "d4dae7f9-3d9b-43f3-bbb3-b3e3f6d13955")
 	)
-	(label "TERM_ECU_N"
+	(label "TERM_VEH_N"
 		(at 255.27 337.82 180)
 		(effects
 			(font
@@ -58947,7 +58947,7 @@
 		)
 		(uuid "d6acdd71-9607-48a7-be56-78a34f50c79f")
 	)
-	(label "FR_ECU_BM"
+	(label "FR_VEH_N"
 		(at 237.49 96.52 0)
 		(effects
 			(font
@@ -58977,7 +58977,7 @@
 		)
 		(uuid "dd0c3582-c17c-4272-9b6b-8e6bfcea3147")
 	)
-	(label "FR_ECU_BM"
+	(label "FR_VEH_N"
 		(at 104.14 285.75 0)
 		(effects
 			(font
@@ -59028,7 +59028,7 @@
 		)
 		(uuid "e7009cd5-0d66-48fb-b485-001c24e11f45")
 	)
-	(label "TERM_ECU_P"
+	(label "TERM_VEH_P"
 		(at 187.96 337.82 0)
 		(effects
 			(font
@@ -72831,7 +72831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Components:ESR03EZPJ102")
+		(lib_id "Device:R")
 		(at 445.77 246.38 0)
 		(unit 1)
 		(body_style 1)
@@ -72852,7 +72852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 442.722 248.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72862,7 +72862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Rohm ESR03EZPJ102"
+		(property "Footprint" "Footprints:Rohm ESR03EZPJ103"
 			(at 447.548 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -72884,7 +72884,7 @@
 				)
 			)
 		)
-		(property "Description" "Rohm 1K 150V 250mw resistor, ESR series"
+		(property "Description" "Rohm ESR03EZPJ103 10K 0603. Q2 gate pull-down: with R9 1K in series from the 3.3 V GPIO, Q2 gate sees 3.0 V, and Q2 stays off while the XIAO boots or resets."
 			(at 445.77 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -73607,7 +73607,7 @@
 				)
 			)
 		)
-		(property "Description" "Switched CAN termination for the car-side pair, across VCU_P_C / VCU_N_C. Connected only when SBU1 is high and U2 selects NO, i.e. exactly when the car and camera buses are split and the car side would otherwise be unterminated. Mirrors R4 on the camera side, and matches comma harness box v3 where U2 NO (CAN0_L) feeds R6 120R across to CAN0_H."
+		(property "Description" "Switched CAN termination for the car-side pair, across VCU_C_P / VCU_C_N. Connected only when SBU1 is high and U2 selects NO, i.e. exactly when the car and camera buses are split and the car side would otherwise be unterminated. Mirrors R4 on the camera side, and matches comma harness box v3 where U2 NO (CAN0_L) feeds R6 120R across to CAN0_H."
 			(at 99.06 41.91 0)
 			(hide yes)
 			(show_name no)
