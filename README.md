@@ -53,10 +53,12 @@ The original harness board — relay `K1` plus the two DG419 analog switches —
 - **Edge-mounted connectors:** `J1`–`J4` overhang the board edge by design. `J3`/`J4` (JAE MX34032NF4)
   project 7.8 mm past the left and right edges respectively; their pads remain fully on the board.
 - **Custom DRC rule** (`Polestar_Flexray.kicad_dru`): exempts intra-footprint pad spacing on `U3` and `U8`
-  only. Both footprints reproduce the manufacturer's own land pattern exactly — `U8` matches TI drawing
-  4225320/A (RGY0020A), which places the exposed pad 0.025 mm from every perimeter pin. Those pads are
-  non-solder-mask-defined, so bridging is controlled by the stencil (78% paste coverage on pad 21) rather
-  than by copper spacing. The rule is scoped to `U3`/`U8` so every other footprint is still checked normally.
+  only. `U8`'s land pattern is based on TI drawing 4225320/A (RGY0020A), which places the exposed pad
+  0.025 mm from every perimeter pin. On this board the 20 perimeter pads are **deliberately extended
+  0.3 mm outward** beyond TI's pattern (extents about 3.9 × 4.9 mm instead of 3.3 × 4.3 mm), which opens that
+  gap to 0.325 mm. The pads are non-solder-mask-defined, so bridging to the exposed pad is controlled by the
+  stencil (78% paste coverage on pad 21) rather than by copper spacing. The rule is scoped to `U3`/`U8` so
+  every other footprint is still checked normally.
 
 ### Status
 
@@ -94,8 +96,9 @@ Everything else comes from stock KiCad libraries (`Device`, `power`, `Crystal`, 
 Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{pro,sch,pcb,dru}`.
 
 > [!IMPORTANT]
-> `Polestar_Flexray.kicad_dru` carries a custom DRC rule and must be kept beside the project files.
-> Without it the board reports 26 false clearance errors. See **Mechanical and DRC notes** above.
+> `Polestar_Flexray.kicad_dru` carries a custom DRC rule and should be kept beside the project files.
+> The current board passes DRC without it, but restoring `U8` to TI's exact land pattern would bring back
+> 20 false clearance errors. See **Mechanical and DRC notes** above.
 
 
 ## License
