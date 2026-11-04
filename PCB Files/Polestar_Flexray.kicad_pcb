@@ -19180,7 +19180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://Rohm ESR series resistors.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19192,7 +19192,7 @@
 				)
 			)
 		)
-		(property "Description" "Series element of the shunt regulator feeding U1/U2 V+. 3.3K rather than 1K keeps the standby drain to about 0.6mA at 14.4V while still biasing D16 at 0.6-4mA across the whole input range."
+		(property "Description" "Rohm ESR03EZPF3301 (JLCPCB C510091) 3.3K 1% 250mW anti-surge 0603. Series element of the shunt regulator feeding U1/U2 V+. 3.3K rather than 1K keeps the standby drain to about 0.6mA at 14.4V while still biasing D16 at 0.6-4mA across the whole input range. Anti-surge part because it dissipates ~0.13 W while D9 clamps VIN near 26 V."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19204,7 +19204,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "ESR03EZPJ332"
+		(property "MFG Part #" "ESR03EZPF3301"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -19216,7 +19216,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "TODO-lookup"
+		(property "JLCPCB Part #" "C510091"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -23239,7 +23239,7 @@
 				)
 			)
 		)
-		(property "Description" "Rohm ESR03EZPJ332 3.3K 0603. Bottom leg of the IGN gate divider; D13 clamps the gate at 5.1 V above ~20.6 V on IGN."
+		(property "Description" "Rohm ESR03EZPF3301 (JLCPCB C510091) 3.3K 1% 250mW anti-surge 0603. Bottom leg of the IGN gate divider; D13 clamps the gate at 5.1 V above ~20.6 V on IGN."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23251,7 +23251,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "ESR03EZPJ332"
+		(property "MFG Part #" "ESR03EZPF3301"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -23263,7 +23263,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "TODO-lookup"
+		(property "JLCPCB Part #" "C510091"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
