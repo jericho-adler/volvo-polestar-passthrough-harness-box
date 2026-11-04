@@ -955,7 +955,7 @@
 				)
 			)
 		)
-		(property "Value" "40MHz NX2016SA"
+		(property "Value" "40MHz 9pF"
 			(at 0 2 180)
 			(layer "F.Fab")
 			(uuid "ca9934d7-b23a-4e3d-b22e-6138f9a58bcc")
@@ -966,7 +966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ndk.com/images/products/catalog/c_NX2016SA-2_e.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C7275074"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -977,7 +977,29 @@
 				)
 			)
 		)
-		(property "Description" "NDK NX2016SA 40.000000MHz, order code S1-40125-50-15-7 - fundamental, -40 to +125C, freq-vs-temp +-50ppm, tolerance +-15ppm, LOAD CAPACITANCE 7pF. Ordering format and the 6-to-18pF CL option are from NDK catalog 2008F_NX2016SA-2_e. ESR max 50 ohm at 40-80MHz, which sets R16 60R4 as the series damping. 7pF matches the circuit: C17 and C18 2.2pF against TCAN4550 pin capacitance of 10pF on OSC1 and 9pF on OSC2 (TI SLLA549) gives a presented CL of about 6.3pF including stray."
+		(property "JLCPCB Part #" "C7275074"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ecf4f03-f8e3-4768-a4a1-82f2382c37fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "HY40MSMD2016DA1R30"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffe8c88b-c048-4b6c-a8bf-2d470d7bb2c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Huiyuan HY40MSMD2016DA1R30, LCSC/JLCPCB C7275074 - 40MHz fundamental, LOAD CAPACITANCE 9pF, ESR 35 ohm, +-10ppm, SMD2016-4P (crystal on pins 1/3, GND on 2/4). Replaces NDK NX2016SA-40M (C485379, NRND and out of stock). 9pF matches the circuit: C17 and C18 7.5pF against TCAN4550 pin capacitance of 10pF on OSC1 and 9pF on OSC2 (TI SLLA549) gives a presented CL of about 9pF including ~0.5pF stray. Confirm the -40C rating in the datasheet."
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14394,7 +14416,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2pF C0G"
+		(property "Value" "7.5pF C0G"
 			(at 1.54 1.05 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14406,7 +14428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_2-2pF-2R2-0-25pF-50V_C1651.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C519116"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14418,7 +14440,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal load capacitor CL1, on the crystal side of R16. SOURCED PART: FH (Fenghua) 0603CG2R2C500NT, LCSC C1651 - 2.2pF 50V C0G/NP0 +-0.25pF 0603, in stock. Samsung CL10C2R2CB8NNNC is an equivalent second source but is not carried by LCSC. MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
+		(property "Description" "Crystal load capacitor CL1, on the crystal side of R16. SOURCED PART: YAGEO CC0603BRNPO9BN7R5, LCSC/JLCPCB C519116 - 7.5pF 50V NP0/C0G +-0.1pF 0603. Sized for the 9pF Y1 (HY40MSMD2016DA1R30). MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14430,7 +14452,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "0603CG2R2C500NT"
+		(property "MFG Part #" "CC0603BRNPO9BN7R5"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14442,7 +14464,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1651"
+		(property "JLCPCB Part #" "C519116"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -21678,7 +21700,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2pF C0G"
+		(property "Value" "7.5pF C0G"
 			(at -1.54 -1.05 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21690,7 +21712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_2-2pF-2R2-0-25pF-50V_C1651.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C519116"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21702,7 +21724,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal load capacitor CL2, on OSC2 directly. SOURCED PART: FH (Fenghua) 0603CG2R2C500NT, LCSC C1651 - 2.2pF 50V C0G/NP0 +-0.25pF 0603, in stock. Samsung CL10C2R2CB8NNNC is an equivalent second source but is not carried by LCSC. MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
+		(property "Description" "Crystal load capacitor CL2, on OSC2 directly. SOURCED PART: YAGEO CC0603BRNPO9BN7R5, LCSC/JLCPCB C519116 - 7.5pF 50V NP0/C0G +-0.1pF 0603. Sized for the 9pF Y1 (HY40MSMD2016DA1R30). MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21714,7 +21736,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "0603CG2R2C500NT"
+		(property "MFG Part #" "CC0603BRNPO9BN7R5"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -21726,7 +21748,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1651"
+		(property "JLCPCB Part #" "C519116"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
