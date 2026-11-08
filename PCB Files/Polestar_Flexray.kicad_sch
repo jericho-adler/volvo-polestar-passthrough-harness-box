@@ -59203,6 +59203,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C3039694"
+			(at 523.24 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL21B106KAYQNNE"
+			(at 523.24 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Samsung CL21B106KAYQNNE, 10uF X7R 0805 (same part as C5 on +5V). VIO bulk capacitance per TI SLLSEZ5D sec 10."
 			(at 523.24 256.54 0)
 			(hide yes)
@@ -59984,6 +60006,30 @@
 				(justify left top)
 			)
 		)
+		(property "JLCPCB Part #" "C5359473"
+			(at 229.87 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "MX34032NF4"
+			(at 229.87 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Description" "automotive connector, 32 conductor, right angle"
 			(at 207.772 62.992 90)
 			(hide yes)
@@ -60308,6 +60354,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C134113"
+			(at 38.354 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "DX07S024XJ1R1100"
+			(at 38.354 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "USB-C Connector 24 conductor, right angle, generic pins"
 			(at 31.242 63.5 90)
 			(hide yes)
@@ -60614,6 +60682,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C253330"
+			(at 407.67 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ103"
+			(at 407.67 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 407.67 290.83 0)
 			(hide yes)
@@ -60877,6 +60967,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1621"
+			(at 220.98 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B472KB8NNNC"
+			(at 220.98 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 220.98 363.22 0)
 			(hide yes)
@@ -61035,6 +61147,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1621"
+			(at 128.27 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B472KB8NNNC"
+			(at 128.27 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 128.27 369.57 0)
 			(hide yes)
@@ -61106,6 +61240,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 411.48 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 411.48 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
 			(at 411.48 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -61264,6 +61420,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 177.8 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 177.8 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
 			(at 177.8 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -61465,6 +61643,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 523.24 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
+			(at 523.24 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 523.24 233.68 0)
 			(hide yes)
@@ -61546,6 +61746,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 223.52 245.11 0)
 			(hide yes)
@@ -61616,6 +61838,30 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf"
+			(at -79.35 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C2905640"
+			(at -79.35 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1FLEX"
 			(at -79.35 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -61721,6 +61967,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 140.97 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C908228"
+			(at 140.97 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "DSK14"
 			(at 140.97 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -61968,6 +62236,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 537.21 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
+			(at 537.21 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 537.21 233.68 0)
 			(hide yes)
@@ -62039,6 +62329,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 373.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C3039694"
+			(at 373.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL21B106KAYQNNE"
 			(at 373.38 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -62208,6 +62520,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 198.12 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
+			(at 198.12 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 198.12 245.11 0)
 			(hide yes)
@@ -62279,6 +62613,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 345.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 345.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
 			(at 345.44 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -63150,6 +63506,30 @@
 				(justify left bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C2876736"
+			(at 454.66 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFG Part #" "TCAN4550RGYRQ1"
+			(at 454.66 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "Description" "TI TCAN4550-Q1 CAN FD controller (Bosch M_CAN 3.2.1.1) with integrated CAN FD transceiver and SPI host interface, up to 8 Mbps. VSUP 5.5-30 V with internal 5 V LDO, VIO 1.7-5.5 V, requires 20/40 MHz clock. VQFN-20 (RGY) 4.5x3.5 mm. AEC-Q100 Grade 1."
 			(at 454.66 307.34 0)
 			(hide yes)
@@ -63303,6 +63683,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 487.68 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20142038"
+			(at 487.68 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "AC0603FR-7W60R4L"
 			(at 487.68 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -63936,6 +64338,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C151588"
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "BZT52C5V1-7-F"
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "5.1 V zener, SOD-123; orderable e.g. BZT52C5V1-7-F (Diodes Inc) or MMSZ5231B - any 5.1 V 500 mW SOD-123 part drops in. Gate-source clamp for Q1 (DMN3200U VGSS = +-8 V). With the 10K/3.3K divider it only conducts above ~20.6 V on IGN - jump start or load dump - and sinks under 2 mA at 40 V. Also clamps negative gate excursions at one diode drop."
 			(at 146.05 139.7 0)
 			(hide yes)
@@ -64086,6 +64510,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 386.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C29936"
+			(at 386.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B105KA8NNN"
 			(at 386.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -64479,6 +64925,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C5290207"
+			(at 210.82 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ470"
+			(at 210.82 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 210.82 360.68 0)
 			(hide yes)
@@ -64796,6 +65264,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C51205"
+			(at 416.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL31B475KBHNNNE"
+			(at 416.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 416.56 68.58 0)
 			(hide yes)
@@ -64867,6 +65357,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 436.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C29936"
+			(at 436.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B105KA8NNN"
 			(at 436.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -65027,6 +65539,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 386.08 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 386.08 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
 			(at 386.08 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -65298,6 +65832,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C318576"
+			(at 407.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL05B103KA5NNNC"
+			(at 407.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Samsung CL05B103KA5NNNC, 10nF 25V X7R 0402. FB bypass required by TI SNAS660D Table 6-1, which calls for a 10-nF bypass capacitor immediately adjacent to pin 4. On fixed-output parts FB also sources the internal VCC regulator, so this must sit at the pin rather than out on the +5V bulk. 0402 chosen deliberately - it tucks closer to a 0.5mm-pitch VSON pad than an 0603 would."
 			(at 407.67 77.47 0)
 			(hide yes)
@@ -65379,6 +65935,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C21189"
+			(at 382.27 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "0603WAF0000T5E"
+			(at 382.27 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Crystal series damping, FITTED AS 0 OHM - pad retained so damping can be added after measurement. At 60R4 the TCAN4550 must overcome ESR plus Rd: per TI SLLA549 eq 33, gmcrit scales with (Rload + Rd), so 60R4 against the NX2016SA 50 ohm max ESR roughly doubles the required transconductance and pushes the gain margin under the >5 that section 12 asks for. SLLA549 only calls for Rd when the measured drive level exceeds the crystal rating (NX2016SA: 10uW typ, 200uW max), so start at 0 ohm, measure drive level and negative resistance on the real board, and fit damping only if needed."
 			(at 382.27 323.85 0)
 			(hide yes)
@@ -65450,6 +66028,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Molex 2125280000 connectors.pdf"
+			(at 41.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "JLCPCB Part #" "C5354889"
+			(at 41.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFG Part #" "212528-0400"
 			(at 41.91 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -65781,6 +66383,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2674434"
+			(at 266.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "TJA1082TT,118"
+			(at 266.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "NXP single-channel FlexRay transceiver, SO14"
 			(at 266.7 241.3 0)
 			(hide yes)
@@ -65898,6 +66522,30 @@
 				(justify left bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C74561"
+			(at -100.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFG Part #" "SMAJ16A"
+			(at -100.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "Description" "Littelfuse uni-directional TVS diode, 16VDC"
 			(at 90.678 123.444 0)
 			(hide yes)
@@ -65969,6 +66617,28 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Rohm ESR series resistors.pdf"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C253329"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ102"
 			(at 130.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -66126,6 +66796,30 @@
 			)
 		)
 		(property "Datasheet" "G5V-2 DC12"
+			(at 118.11 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C128021"
+			(at 118.11 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "G5V-2-H1 DC12"
 			(at 118.11 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -66317,6 +67011,30 @@
 				(justify left top)
 			)
 		)
+		(property "JLCPCB Part #" "C461018"
+			(at 127 339.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "DMN3200U-7"
+			(at 127 339.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Description" "Diodes Inc MOSFET 650mW 30Vdss"
 			(at 138.43 140.97 0)
 			(hide yes)
@@ -66478,6 +67196,30 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C83528"
+			(at 105.41 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "1N4148W-7-F"
+			(at 105.41 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 105.41 80.01 0)
 			(hide yes)
@@ -66548,6 +67290,30 @@
 			)
 		)
 		(property "Datasheet" "G5V-2 DC12"
+			(at 201.93 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C128021"
+			(at 201.93 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "G5V-2-H1 DC12"
 			(at 201.93 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -66994,6 +67760,30 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C83528"
+			(at 177.8 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "1N4148W-7-F"
+			(at 177.8 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 177.8 313.69 0)
 			(hide yes)
@@ -67065,6 +67855,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 118.11 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5290207"
+			(at 118.11 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ470"
 			(at 118.11 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -67234,6 +68046,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C397929"
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "BZT52C16-7-F"
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "16V zener clamping Q3 Vgs. Without it Vgs equals the battery voltage and would exceed the -20V rating when D9 clamps a transient at about 26V. 16V is chosen so the zener stays off at 14.4V charging - it then draws no standby current at all, which matters on a constant-battery input."
 			(at 78.74 124.46 0)
 			(hide yes)
@@ -67303,6 +68137,28 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Rohm ESR series resistors.pdf"
+			(at 81.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2846664"
+			(at 81.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ121"
 			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -67384,6 +68240,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://DMN3200U-7.pdf"
+			(at 59.69 321.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C508210"
+			(at 59.69 321.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "DMP4015SSS-13"
 			(at 59.69 321.92 0)
 			(hide yes)
 			(show_name no)
@@ -67726,6 +68606,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2072602"
+			(at 375.92 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "TI LM53600LQDSXRQ1 - automotive 650mA 36V synchronous buck, FIXED 5.0V output, spread spectrum. The fixed option is mandatory here: FB (pin 4) is tied straight to the output and also powers the internal VCC regulator, and pin 5 is AGND. On the ADJ part (LM53600AQDSXRQ1) FB needs an external divider and would regulate to about 1V, and pin 5 becomes BIAS - which is grounded in this design. C27 10nF is the FB bypass required by SNAS660D Table 6-1. LM536005QDSXRQ1 is the identical part without spread spectrum."
 			(at 375.92 69.85 0)
 			(hide yes)
@@ -67836,6 +68727,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://DMN3200U-7.pdf"
+			(at 449.58 437.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C461018"
+			(at 449.58 437.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "DMN3200U-7"
 			(at 449.58 437.49 0)
 			(hide yes)
 			(show_name no)
@@ -68008,6 +68923,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C253331"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ104"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Gate pulldown for Q3. Carries no current in normal operation - the gate is a MOSFET gate and D14 is off below 16V - so it costs nothing in standby. It only conducts when D14 clamps, about 100uA at a 26V transient."
 			(at 71.12 137.16 0)
 			(hide yes)
@@ -68078,6 +69015,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://PESD1CAN.pdf"
+			(at -20.93 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C15771"
+			(at -20.93 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1CAN,215"
 			(at -20.93 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -68560,6 +69521,30 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2673265"
+			(at 125.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "DG419LEDY-T1-GE4"
+			(at 125.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(property "Description" "Vishay analog switch"
 			(at 125.73 62.23 0)
 			(hide yes)
@@ -68803,6 +69788,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Vishay DG41xLE switch.pdf"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2673265"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "DG419LEDY-T1-GE4"
 			(at 125.73 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -69225,6 +70234,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C337485"
+			(at 398.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "UMK325AB7106KM-P"
+			(at 398.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 398.78 44.45 0)
 			(hide yes)
@@ -69486,6 +70517,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2674434"
+			(at 342.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "TJA1082TT,118"
+			(at 342.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "NXP single-channel FlexRay transceiver, SO14"
 			(at 342.9 242.57 0)
 			(hide yes)
@@ -69601,6 +70654,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2846664"
+			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ121"
+			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Rohm 120 ohm 150V 250mw resistor, ESR series"
 			(at 73.66 44.45 0)
 			(hide yes)
@@ -69672,6 +70747,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 537.21 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C337485"
+			(at 537.21 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "UMK325AB7106KM-P"
 			(at 537.21 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -69994,6 +71091,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C3039694"
+			(at 347.98 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL21B106KAYQNNE"
+			(at 347.98 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Samsung CL21B106KAYQNNE, 10uF 25V X7R 0805. Local bulk on the load side of D12 - the XIAO sits behind a series Schottky, and its own 10uF is downstream of the module ORing diode plus board trace."
 			(at 347.98 295.91 0)
 			(hide yes)
@@ -70219,6 +71338,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 416.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5144883"
+			(at 416.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "XAL4040-103MEC"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -70455,6 +71596,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 210.82 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5290207"
+			(at 210.82 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ470"
 			(at 210.82 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -70858,6 +72021,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C253331"
+			(at 457.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ104"
+			(at 457.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 457.2 73.66 0)
 			(hide yes)
@@ -71092,6 +72277,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2846664"
+			(at 90.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ121"
+			(at 90.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Rohm 120 ohm 150V 250mw resistor, ESR series"
 			(at 90.17 67.31 0)
 			(hide yes)
@@ -71252,6 +72459,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1621"
+			(at 502.92 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B472KB8NNNC"
+			(at 502.92 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 502.92 335.28 0)
 			(hide yes)
@@ -71321,6 +72550,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 355.6 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C908228"
+			(at 355.6 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "DSK14"
 			(at 355.6 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -71412,6 +72663,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1623"
+			(at 492.76 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B474KA8NNNC"
+			(at 492.76 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 492.76 303.53 0)
 			(hide yes)
@@ -71483,6 +72756,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 118.11 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5290207"
+			(at 118.11 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ470"
 			(at 118.11 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -71652,6 +72947,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C124196"
+			(at 162.56 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "BZT52C12-7-F"
+			(at 162.56 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Clamps U1/U2 V+ to about 12V. The DG419LE is specified for a 3V to 16V supply (18V absolute max) but D9 does not break down until 17.8V, so without this the switches sit outside their rating between 16V and 17.8V on the input."
 			(at 162.56 25.4 0)
 			(hide yes)
@@ -71723,6 +73040,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 510.54 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C309062"
+			(at 510.54 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL32B226KAJNNNE"
 			(at 510.54 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -72591,6 +73930,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C253329"
+			(at 445.77 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ102"
+			(at 445.77 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Rohm 1K 150V 250mw resistor, ESR series"
 			(at 445.77 231.14 0)
 			(hide yes)
@@ -72661,6 +74022,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://PESD1CAN.pdf"
+			(at 47.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C15771"
+			(at 47.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1CAN,215"
 			(at 47.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -72746,6 +74131,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 487.68 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20142038"
+			(at 487.68 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "AC0603FR-7W60R4L"
 			(at 487.68 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -72914,6 +74321,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C253330"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ103"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Rohm ESR03EZPJ103 10K 0603. Top leg of the IGN gate divider: with R8 3.3K, Vgs = IGN x 0.248, so 3.6 V at 14.4 V against the DMN3200U +-8 V VGSS rating."
 			(at 138.43 127 0)
 			(hide yes)
@@ -72984,6 +74413,28 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Rohm ESR series resistors.pdf"
+			(at 445.77 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C253330"
+			(at 445.77 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ103"
 			(at 445.77 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -73075,6 +74526,30 @@
 				(justify left top)
 			)
 		)
+		(property "JLCPCB Part #" "C15771"
+			(at 12.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1CAN,215"
+			(at 12.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Description" "CAN bus ESD protetion diode"
 			(at 195.072 133.35 0)
 			(hide yes)
@@ -73149,6 +74624,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 436.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 436.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL10B104KB8NNN"
 			(at 436.88 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -73305,6 +74802,28 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272302_Walter-Elec-1206T3A63V_C354897.pdf"
+			(at 54.61 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C354897"
+			(at 54.61 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "1206T3A63V"
 			(at 54.61 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -73552,6 +75071,30 @@
 				(justify left top)
 			)
 		)
+		(property "JLCPCB Part #" "C15771"
+			(at 81.94 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1CAN,215"
+			(at 81.94 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Description" "CAN bus ESD protetion diode"
 			(at 264.922 133.35 0)
 			(hide yes)
@@ -73626,6 +75169,28 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 457.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C309062"
+			(at 457.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "CL32B226KAJNNNE"
 			(at 457.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -73717,6 +75282,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2846664"
+			(at 99.06 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "ESR03EZPJ121"
+			(at 99.06 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Switched CAN termination for the car-side pair, across VCU_C_P / VCU_C_N. Connected only when SBU1 is high and U2 selects NO, i.e. exactly when the car and camera buses are split and the car side would otherwise be unterminated. Mirrors R4 on the camera side, and matches comma harness box v3 where U2 NO (CAN0_L) feeds R6 120R across to CAN0_H."
 			(at 99.06 41.91 0)
 			(hide yes)
@@ -73787,6 +75374,30 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf"
+			(at -79.35 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C2905640"
+			(at -79.35 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "PESD1FLEX"
 			(at -79.35 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -73971,6 +75582,30 @@
 			)
 		)
 		(property "Datasheet" "G5V-2 DC12"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C128021"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "MFG Part #" "G5V-2-H1 DC12"
 			(at 90.17 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -74457,6 +76092,30 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://JAE MX34032NF4 connector.pdf"
+			(at 238.76 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C5359473"
+			(at 238.76 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFG Part #" "MX34032NF4"
 			(at 238.76 257.15 0)
 			(hide yes)
 			(show_name no)
