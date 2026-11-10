@@ -61501,7 +61501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40MHz 9pF"
+		(property "Value" "40MHz 12pF"
 			(at 393.7 329.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61523,7 +61523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C7275074"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C5155517"
 			(at 396.24 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -61534,7 +61534,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C7275074"
+		(property "JLCPCB Part #" "C5155517"
 			(at 396.24 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -61545,7 +61545,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "HY40MSMD2016DA1R30"
+		(property "MFG Part #" "SL201640M12P"
 			(at 396.24 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -61556,7 +61556,7 @@
 				)
 			)
 		)
-		(property "Description" "Huiyuan HY40MSMD2016DA1R30, LCSC/JLCPCB C7275074 - 40MHz fundamental, LOAD CAPACITANCE 9pF, ESR 35 ohm, +-10ppm, SMD2016-4P (crystal on pins 1/3, GND on 2/4). Replaces NDK NX2016SA-40M (C485379, NRND and out of stock). 9pF matches the circuit: C17 and C18 7.5pF against TCAN4550 pin capacitance of 10pF on OSC1 and 9pF on OSC2 (TI SLLA549) gives a presented CL of about 9pF including ~0.5pF stray. Confirm the -40C rating in the datasheet."
+		(property "Description" "Slkor SL201640M12P, LCSC/JLCPCB C5155517 - 40MHz fundamental, CL 12pF, ESR 40 ohm max, C0 3pF max, +-10ppm, +-20ppm over -40..+85C operating AND storage, SMD2016-4P, crystal on pins 1/3, case GND on 2/4. Replaces Huiyuan HY40MSMD2016DA1R30, which is rated only -20..+70C. Run deliberately below its 12pF CL: C17/C18 2.2pF plus the TCAN4550 pin capacitance (OSC1 10pF, OSC2 9pF, TI SLLA549) and ~2.5pF stray present ~8.3pF, giving an SLLA549 gain margin of ~4 (typ C0) instead of ~2.4 at a matched 12pF. Cost: frequency ~+40-65ppm high, irrelevant against the +-0.5pct CAN tolerance."
 			(at 396.24 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -61884,6 +61884,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at -79.35 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "LCSC" "C2905640"
 			(at 129.54 298.13 0)
 			(hide yes)
@@ -62000,6 +62012,17 @@
 			)
 		)
 		(property "Description" "Blocks back-feed from the DG419 supply into VIN. With the box dead but still inline, the live car bus pushes current through U1/U2 internal clamp diodes into V+; without this diode that current reaches the whole VIN rail."
+			(at 140.97 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 140.97 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -63506,7 +63529,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "JLCPCB Part #" "C2876736"
+		(property "JLCPCB Part #" "C5215852"
 			(at 454.66 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -63518,7 +63541,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFG Part #" "TCAN4550RGYRQ1"
+		(property "MFG Part #" "TCAN4550RGYTQ1"
 			(at 454.66 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -63542,7 +63565,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "TCAN4550RGYRQ1"
+		(property "FT Rotation Offset" "270"
+			(at 454.66 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "TCAN4550RGYTQ1"
 			(at 454.66 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -64624,6 +64659,28 @@
 			)
 		)
 		(property "Description" "Seeed XIAO RP2350 module. All 19 GPIO: D0-D10 on the castellated edge, D11-D18 on the bottom pads (GP21,20,17,16,11,12,10,9). D15-D18 = hardware SPI1 (MOSI/MISO/SCK/CS). Pins 25-30 of the SMD footprint are not brought out."
+			(at 309.88 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG Part #" "102010550"
+			(at 309.88 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C41882923"
 			(at 309.88 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -65957,7 +66014,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal series damping, FITTED AS 0 OHM - pad retained so damping can be added after measurement. At 60R4 the TCAN4550 must overcome ESR plus Rd: per TI SLLA549 eq 33, gmcrit scales with (Rload + Rd), so 60R4 against the NX2016SA 50 ohm max ESR roughly doubles the required transconductance and pushes the gain margin under the >5 that section 12 asks for. SLLA549 only calls for Rd when the measured drive level exceeds the crystal rating (NX2016SA: 10uW typ, 200uW max), so start at 0 ohm, measure drive level and negative resistance on the real board, and fit damping only if needed."
+		(property "Description" "Crystal series damping, FITTED AS 0 OHM - pad retained so damping can be added after measurement. At 60R4 the TCAN4550 must overcome ESR plus Rd: per TI SLLA549 eq 33, gmcrit scales with (Rload + Rd), so 60R4 against the SL201640M12P 40 ohm max ESR roughly doubles the required transconductance and pushes the gain margin under the >5 that section 12 asks for. SLLA549 only calls for Rd when the measured drive level exceeds the crystal rating (SL201640M12P: 100uW max), so start at 0 ohm, measure drive level and negative resistance on the real board, and fit damping only if needed."
 			(at 382.27 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -66406,6 +66463,17 @@
 			)
 		)
 		(property "Description" "NXP single-channel FlexRay transceiver, SO14"
+			(at 266.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
 			(at 266.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -67046,6 +67114,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 127 339.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "1"
 			(uuid "00b2e768-8df1-4dcb-ba22-c22b8954ffdf")
 		)
@@ -67624,7 +67704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.5pF C0G"
+		(property "Value" "2.2pF C0G"
 			(at 384.81 345.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67646,7 +67726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C519116"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C1651"
 			(at 382.27 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -67657,7 +67737,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C519116"
+		(property "JLCPCB Part #" "C1651"
 			(at 382.27 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -67668,7 +67748,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "CC0603BRNPO9BN7R5"
+		(property "MFG Part #" "0603CG2R2C500NT"
 			(at 382.27 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -67679,7 +67759,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal load capacitor CL1, on the crystal side of R16. SOURCED PART: YAGEO CC0603BRNPO9BN7R5, LCSC/JLCPCB C519116 - 7.5pF 50V NP0/C0G +-0.1pF 0603. Sized for the 9pF Y1 (HY40MSMD2016DA1R30). MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
+		(property "Description" "Crystal load capacitor CL1, on the crystal side of R16. FH (Guangdong Fenghua) 0603CG2R2C500NT, LCSC/JLCPCB C1651 - 2.2pF 50V C0G +-0.25pF 0603. Sized for Y1 (SL201640M12P, 12pF CL) run at ~8.3pF presented load for start-up margin - see Y1. MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. To pull the oscillator onto frequency, raise C17 and C18 together (10pF gives the matched 12pF load at lower gain margin)."
 			(at 382.27 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -68573,7 +68653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM53600LQDSXRQ1"
+		(property "Value" "LM53601LQDSXRQ1"
 			(at 369.824 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68584,7 +68664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm"
+		(property "Footprint" "Footprints:TI LM53601LQDSXRQ1"
 			(at 375.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -68606,7 +68686,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2072602"
+		(property "JLCPCB Part #" "C2073079"
 			(at 375.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -68617,7 +68697,7 @@
 				)
 			)
 		)
-		(property "Description" "TI LM53600LQDSXRQ1 - automotive 650mA 36V synchronous buck, FIXED 5.0V output, spread spectrum. The fixed option is mandatory here: FB (pin 4) is tied straight to the output and also powers the internal VCC regulator, and pin 5 is AGND. On the ADJ part (LM53600AQDSXRQ1) FB needs an external divider and would regulate to about 1V, and pin 5 becomes BIAS - which is grounded in this design. C27 10nF is the FB bypass required by SNAS660D Table 6-1. LM536005QDSXRQ1 is the identical part without spread spectrum."
+		(property "Description" "TI LM53601LQDSXRQ1, LCSC/JLCPCB C2073079 - automotive 1A 36V synchronous buck, FIXED 5.0V output, spread spectrum. Same die family, DSX0010A package and pinout as the LM53600LQDSXRQ1 it replaces (C2072602 had only 3 in stock on 2026-11-08); TI SNAS660D covers both. The 1A part wants a 4.7uH inductor with about 2A saturation (Table 9-2): L1 is XAL4030-472MEC, 4.6A. The fixed option is mandatory here: FB (pin 4) is tied straight to the output and also powers the internal VCC regulator, and pin 5 is AGND. On the ADJ part (LM53601AQDSXRQ1) FB needs an external divider and would regulate to about 1V, and pin 5 becomes BIAS - which is grounded in this design. C27 10nF is the FB bypass required by SNAS660D Table 6-1. LM536015QDSXRQ1 is the identical part without spread spectrum."
 			(at 375.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -68628,7 +68708,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "LM53600LQDSXRQ1"
+		(property "MFG Part #" "LM53601LQDSXRQ1"
 			(at 375.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -68771,6 +68851,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 449.58 437.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -69059,6 +69151,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at -20.93 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "2"
@@ -69556,6 +69660,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 125.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5588df5-1db9-483d-be48-54d9f40d4c50")
 		)
@@ -69831,6 +69947,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -70381,7 +70509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.5pF C0G"
+		(property "Value" "2.2pF C0G"
 			(at 412.75 345.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70403,7 +70531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C519116"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C1651"
 			(at 410.21 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -70414,7 +70542,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C519116"
+		(property "JLCPCB Part #" "C1651"
 			(at 410.21 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -70425,7 +70553,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "CC0603BRNPO9BN7R5"
+		(property "MFG Part #" "0603CG2R2C500NT"
 			(at 410.21 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -70436,7 +70564,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal load capacitor CL2, on OSC2 directly. SOURCED PART: YAGEO CC0603BRNPO9BN7R5, LCSC/JLCPCB C519116 - 7.5pF 50V NP0/C0G +-0.1pF 0603. Sized for the 9pF Y1 (HY40MSMD2016DA1R30). MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. Trim C17 and C18 together if the oscillator needs pulling onto frequency."
+		(property "Description" "Crystal load capacitor CL2, on OSC2 directly. FH (Guangdong Fenghua) 0603CG2R2C500NT, LCSC/JLCPCB C1651 - 2.2pF 50V C0G +-0.25pF 0603. Sized for Y1 (SL201640M12P, 12pF CL) run at ~8.3pF presented load for start-up margin - see Y1. MUST be C0G: X7R drifts with temperature and DC bias and would pull the 40MHz oscillator. To pull the oscillator onto frequency, raise C17 and C18 together (10pF gives the matched 12pF load at lower gain margin)."
 			(at 410.21 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -70540,6 +70668,17 @@
 			)
 		)
 		(property "Description" "NXP single-channel FlexRay transceiver, SO14"
+			(at 342.9 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
 			(at 342.9 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -71315,7 +71454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "4.7uH"
 			(at 419.1 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71326,7 +71465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -71337,7 +71476,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -71348,7 +71487,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C5144883"
+		(property "JLCPCB Part #" "C19191688"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -71359,7 +71498,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "XAL4040-103MEC"
+		(property "MFG Part #" "XAL4030-472MEC"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -71370,7 +71509,18 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Coilcraft XAL4030-472MEC, LCSC/JLCPCB C19191688 - 4.7uH +-20pct, DCR 40.1 mohm, Isat 4.6A, AEC-Q200, 4x4x3.1mm. TI SNAS660D 9.2.1.2.1 / Table 9-2 recommends 4.7uH for the fixed 5V LM53600/LM53601 (about 2A saturation for the 1A LM53601 fitted as U3) and states the internal compensation is stable from 4 to 10uH. Ripple ~0.3A p-p at 13.5V/2.1MHz, ~0.6A p-p at 36V/1.5MHz. Same land as the XAL4040."
+			(at 416.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 416.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -72583,6 +72733,17 @@
 			)
 		)
 		(property "Description" "DSK14 40V 1A Schottky (LCSC C908228). Isolates the XIAO 5V pad - which is raw USB VBUS - from the +5V rail, so plugging the XIAO USB-C in cannot fight the buck or back-feed VIN through the LM53600 high-side body diode. TJA1082 VCC stays on the buck side."
+			(at 355.6 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 355.6 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -74068,6 +74229,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 47.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "2"
 			(uuid "82ef6fc5-7a41-406f-9a11-dae0aefd6b23")
 		)
@@ -74391,7 +74564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 442.722 248.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -74401,7 +74574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Rohm ESR03EZPJ103"
+		(property "Footprint" "Footprints:Rohm ESR03EZPJ332"
 			(at 447.548 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -74423,7 +74596,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C253330"
+		(property "JLCPCB Part #" "C510091"
 			(at 445.77 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -74434,7 +74607,7 @@
 				)
 			)
 		)
-		(property "MFG Part #" "ESR03EZPJ103"
+		(property "MFG Part #" "ESR03EZPF3301"
 			(at 445.77 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -74445,7 +74618,7 @@
 				)
 			)
 		)
-		(property "Description" "Rohm ESR03EZPJ103 10K 0603. Q2 gate pull-down: with R9 1K in series from the 3.3 V GPIO, Q2 gate sees 3.0 V, and Q2 stays off while the XIAO boots or resets."
+		(property "Description" "Rohm ESR03EZPF3301 (JLCPCB C510091) 3.3K 1% 250mW anti-surge 0603. Q2 gate pull-down: with R9 1K in series from the 3.3 V GPIO, Q2 gate sees 2.5 V, and Q2 stays off while the XIAO boots or resets. 3.3K rather than 10K keeps R9 + R10 at 4.3K, inside the 8.2K maximum external pull-down of RP2350-A2 erratum E9."
 			(at 445.77 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -74559,6 +74732,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 12.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "2"
@@ -75106,6 +75291,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 81.94 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "2"
 			(uuid "81f6ff96-e385-48d0-b742-41f5790ae118")
 		)
@@ -75418,6 +75615,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at -79.35 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(property "LCSC" "C2905640"

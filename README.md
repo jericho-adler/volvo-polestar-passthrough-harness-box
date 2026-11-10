@@ -35,7 +35,7 @@ its own transceiver, with the microcontroller between them relaying frames.
   it — the vehicle and ECU are wired directly to each other and the bus behaves as if the box were not there.
   Energizing it **splits** the bus into the MITM path. Driven from the XIAO via `FR_BYPASS_CTRL` → `Q2`
   (DMN3200U) with a 1N4148 flyback diode
-- **Power:** `U3` **LM53600-Q1** buck (12 V → 5 V, always-on, forced PWM) with a 10 µH Coilcraft XAL4040
+- **Power:** `U3` **LM53601-Q1** buck (12 V → 5 V, always-on, forced PWM) with a 4.7 µH Coilcraft XAL4030
   inductor, feeding the XIAO's 5 V input; the XIAO's 3V3 regulator in turn supplies transceiver `VIO`
 - **Protection:** PESD1FLEX ESD diodes (`D10`, `D11`) on each bus half at its connector
 
