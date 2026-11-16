@@ -115,6 +115,10 @@ electrically invisible to the car while unpowered, that no rail is shorted, that
 harness pin, and that the relays fall back to passthrough when power is removed. Every step has a picture
 rendered from the KiCad model showing exactly what to probe.
 
+## Support
+
+If you'd like to support the project and are planning to order a comma device, using my referral link would be appreciated: [refer.comma.ai/LJ2W8GG](https://refer.comma.ai/LJ2W8GG)
+
 ## License
 
 Licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0).
