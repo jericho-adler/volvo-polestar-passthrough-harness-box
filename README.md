@@ -1,14 +1,17 @@
 # Volvo/Polestar Passthrough Harness Box
 
-# 🚧 IN DEVELOPMENT 🚧
+# 📦 BOARDS ORDERED 📦
 
 > [!WARNING]
-> **This branch (`flexray-integration`) is work in progress and has not been built or tested in a vehicle.**
-> The FlexRay schematic is complete and ERC-clean, and the PCB is fully routed and DRC-clean, but no board
-> has been fabricated or bench-tested yet. The `main` branch holds the last stable design.
-
+> **This branch (`flexray-integration`) has not been tested in a vehicle yet.**
+> The design passed a full pre-fabrication review ([`DESIGN_REVIEW_2026-11-08.md`](DESIGN_REVIEW_2026-11-08.md)),
+> and assembled boards have been ordered from JLCPCB. They have not arrived or been bench-tested yet.
+> The `main` branch holds the last stable design.
 
 A small automotive ADAS harness pass-through box designed in KiCad, built for **Volvo/Polestar** vehicles. It sits inline on the camera/VCU harness and provides a fail-safe electrical bypass plus signal switching, protected against automotive power-rail transients and ESD.
+
+![Assembled board render, showing the VCU and CAR Harness connectors, the XIAO RP2350 and the three relays](3D%20models/Polestar_Flexray_Final.png)
+
 - **Board:** 98.0 × 58.0 mm, 4-layer (F.Cu / In1.Cu=GND / In2.Cu / B.Cu), 80 components, 126 nets.
   Corners are radiused 3.8 mm, concentric with the four M3 mounting holes
 - **Power inputs:** VBAT and VOBD, each TVS-protected (SMAJ16A) and OR'd through Schottky diodes (STPS2H100ZFY) into a combined VIN rail
@@ -69,8 +72,11 @@ The original harness board — relay `K1` plus the two DG419 analog switches —
 | Placement | Complete — 84 footprints (80 components + 4 mounting holes) on a 98 × 58 mm outline |
 | Routing | **Complete** — 1370 track segments, 224 vias, 0 unrouted. In1.Cu is a solid GND pour; In2.Cu is a +5V plane with a VIN island under the input and buck section; all pours filled |
 | DRC | 0 errors, 0 unconnected, 0 silkscreen warnings. The only warnings left are 12 footprints that differ from `Library/` (board-local silkscreen trims) and 4 schematic-parity notes for the `H1`–`H4` mounting holes, which have no symbols |
+| Pre-fab review | Done, all findings fixed. See [`DESIGN_REVIEW_2026-11-08.md`](DESIGN_REVIEW_2026-11-08.md) |
+| Fabrication | **Ordered** — assembled boards from JLCPCB, built from [`PCB Files/production/`](PCB%20Files/production/) |
 | Firmware | In Progress with Dev Board |
-| Bench / vehicle testing | In Progress with Dev Board |
+| Bench testing | Procedure ready: [`BENCH_TEST.md`](BENCH_TEST.md) ([PDF](BENCH_TEST.pdf)). Waiting on boards |
+| Vehicle testing | Not started |
 
 ### Libraries
 
@@ -100,6 +106,14 @@ Project files live in [`PCB Files/`](PCB%20Files/) as `Polestar_Flexray.kicad_{p
 > The current board passes DRC without it, but restoring `U8` to TI's exact land pattern would bring back
 > 20 false clearance errors. See **Mechanical and DRC notes** above.
 
+
+## Bench test before the car
+
+[`BENCH_TEST.md`](BENCH_TEST.md) (also as a printable [PDF](BENCH_TEST.pdf)) is a step-by-step check of a
+freshly assembled board using only a multimeter and a current-limited bench supply. It confirms the box is
+electrically invisible to the car while unpowered, that no rail is shorted, that nothing from the box drives a
+harness pin, and that the relays fall back to passthrough when power is removed. Every step has a picture
+rendered from the KiCad model showing exactly what to probe.
 
 ## License
 
