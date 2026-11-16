@@ -11,6 +11,10 @@ A small automotive ADAS harness pass-through box designed in KiCad, built for **
 - **Protection:** PESD1CAN ESD diodes on signal lines at the connectors
 - **Connectors:** JAE MX34032NF4 (32-pin automotive, ×2) for the harness pass-through, plus a USB-C and Molex connector
 
+## Support
+
+If you'd like to support the project and are planning to order a comma device, using my referral link would be appreciated: [refer.comma.ai/LJ2W8GG](https://refer.comma.ai/LJ2W8GG)
+
 ## License
 
 Licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0).
